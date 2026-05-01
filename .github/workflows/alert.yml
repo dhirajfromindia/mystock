@@ -1,4 +1,4 @@
-name: Market Cap Alert
+name: Daily Alert
 
 on:
   schedule:
