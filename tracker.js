@@ -9,9 +9,7 @@ process.env.TWILIO_AUTH_TOKEN
 
 async function run(){
 
-const res = await axios.get(
-"https://api.stockedge.com/Api/SecurityDashboardApi/GetComposedIndexParts/14801"
-);
+const res = await axios.get(process.env.STOCK_API_URL)
 
 const latest = res.data.sort((a,b)=>b.MCap-a.MCap);
 
