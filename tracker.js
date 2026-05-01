@@ -3,88 +3,83 @@ const axios = require("axios");
 const twilio = require("twilio");
 
 const client = twilio(
-  process.env.TWILIO_ACCOUNT_SID,
-  process.env.TWILIO_AUTH_TOKEN
+process.env.TWILIO_ACCOUNT_SID,
+process.env.TWILIO_AUTH_TOKEN
 );
 
-async function run() {
+async function run(){
 
-  const res = await axios.get(
-    "https://api.stockedge.com/Api/SecurityDashboardApi/GetComposedIndexParts/14801"
-  );
+const res = await axios.get(
+"https://api.stockedge.com/Api/SecurityDashboardApi/GetComposedIndexParts/14801"
+);
 
-  const latest = res.data.sort((a,b)=>b.MCap-a.MCap);
+const latest = res.data.sort((a,b)=>b.MCap-a.MCap);
 
-  let old = [];
+let old=[];
 
-  if(fs.existsSync("data.json")){
-    old = JSON.parse(fs.readFileSync("data.json"));
-  }
+if(fs.existsSync("data.json")){
+old=JSON.parse(fs.readFileSync("data.json"));
+}
 
-  let lines = [];
+let jumps=[];
 
-  latest.forEach((x,i)=>{
+latest.forEach((x,i)=>{
 
-    const newRank = i + 1;
+const newRank=i+1;
+const prev=old.find(z=>z.SecurityID==x.SecurityID);
 
-    const prev = old.find(z => z.SecurityID == x.SecurityID);
+if(prev && newRank < prev.rank){
 
-    if(prev){
+jumps.push({
+name:x.Nm,
+from:prev.rank,
+to:newRank,
+mcap:x.MCap
+});
 
-      // Only upward jump
-      if(newRank < prev.rank){
+}
 
-        lines.push(
-`${x.Nm}
-${prev.rank} ➜ ${newRank}
-(₹${prev.mcap.toFixed(0)} Cr ➜ ₹${x.MCap.toFixed(0)} Cr)`
-        );
+});
 
-      }
+let msg="";
 
-    }
+if(jumps.length>0){
 
-  });
+jumps.sort((a,b)=>(b.from-b.to)-(a.from-a.to));
 
-  let msg = "";
+const top=jumps[0];
 
-  if(lines.length > 0){
+msg =
+`🚀 Biggest Mover Today
 
-    msg =
-`📈 Market Cap Rank Alert
+${top.name}
+${top.from} ➜ ${top.to}
+Jumped ${top.from-top.to} ranks`;
 
-${lines.join("\n\n")}`;
+}else{
 
-  } else {
+msg=`📊 Daily Update
 
-    msg =
-`📊 Market Cap Daily Update
+Aaj koi jump nahi hai.`;
 
-Aaj koi rank jump nahi hai.`;
+}
 
-  }
+await client.messages.create({
+from:process.env.TWILIO_FROM,
+to:process.env.TWILIO_TO,
+body:msg
+});
 
-  await client.messages.create({
-    from: process.env.TWILIO_FROM,
-    to: process.env.TWILIO_TO,
-    body: msg
-  });
-
-  console.log("WhatsApp Sent");
-
-  // Save latest snapshot
-  fs.writeFileSync(
-    "data.json",
-    JSON.stringify(
-      latest.map((x,i)=>({
-        SecurityID:x.SecurityID,
-        rank:i+1,
-        mcap:x.MCap
-      })),
-      null,
-      2
-    )
-  );
+fs.writeFileSync(
+"data.json",
+JSON.stringify(
+latest.map((x,i)=>({
+SecurityID:x.SecurityID,
+rank:i+1,
+mcap:x.MCap,
+name:x.Nm
+})),null,2
+));
 
 }
 
