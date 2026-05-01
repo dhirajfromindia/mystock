@@ -6,7 +6,8 @@ const client = twilio(
 );
 
 async function run(){
-
+console.log("TO =", process.env.TWILIO_TO);
+console.log("FROM =", process.env.TWILIO_FROM);
  await client.messages.create({
    from: process.env.TWILIO_FROM,
    to: process.env.TWILIO_TO,
