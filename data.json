@@ -2,251 +2,301 @@
   {
     "SecurityID": 4897,
     "rank": 1,
-    "mcap": 1936303
+    "mcap": 1936303,
+    "name": "Reliance Industries Ltd."
   },
   {
     "SecurityID": 5051,
     "rank": 2,
-    "mcap": 1187304
+    "mcap": 1187304,
+    "name": "HDFC Bank Ltd."
   },
   {
     "SecurityID": 6508,
     "rank": 3,
-    "mcap": 1149433
+    "mcap": 1149433,
+    "name": "Bharti Airtel Ltd."
   },
   {
     "SecurityID": 8843,
     "rank": 4,
-    "mcap": 985830
+    "mcap": 985830,
+    "name": "State Bank Of India"
   },
   {
     "SecurityID": 8748,
     "rank": 5,
-    "mcap": 905069
+    "mcap": 905069,
+    "name": "ICICI Bank Ltd."
   },
   {
     "SecurityID": 6797,
     "rank": 6,
-    "mcap": 894934
+    "mcap": 894934,
+    "name": "Tata Consultancy Services Ltd."
   },
   {
     "SecurityID": 6114,
     "rank": 7,
-    "mcap": 583123
+    "mcap": 583123,
+    "name": "Bajaj Finance Ltd."
   },
   {
     "SecurityID": 4964,
     "rank": 8,
-    "mcap": 551993
+    "mcap": 551993,
+    "name": "Larsen & Toubro Ltd."
   },
   {
     "SecurityID": 5016,
     "rank": 9,
-    "mcap": 528799
+    "mcap": 528799,
+    "name": "Hindustan Unilever Ltd."
   },
   {
     "SecurityID": 4926,
     "rank": 10,
-    "mcap": 479172
+    "mcap": 479172,
+    "name": "Infosys Ltd."
   },
   {
     "SecurityID": 5071,
     "rank": 11,
-    "mcap": 433848
+    "mcap": 433848,
+    "name": "Sun Pharmaceutical Industries Ltd."
   },
   {
     "SecurityID": 7239,
     "rank": 12,
-    "mcap": 418559
+    "mcap": 418559,
+    "name": "Maruti Suzuki India Ltd."
   },
   {
     "SecurityID": 5535,
     "rank": 13,
-    "mcap": 394616
+    "mcap": 394616,
+    "name": "ITC Ltd."
   },
   {
     "SecurityID": 5889,
     "rank": 14,
-    "mcap": 394078
+    "mcap": 394078,
+    "name": "Axis Bank Ltd."
   },
   {
     "SecurityID": 6050,
     "rank": 15,
-    "mcap": 389379
+    "mcap": 389379,
+    "name": "Titan Company Ltd."
   },
   {
     "SecurityID": 7760,
     "rank": 16,
-    "mcap": 387042
+    "mcap": 387042,
+    "name": "NTPC Ltd."
   },
   {
     "SecurityID": 5311,
     "rank": 17,
-    "mcap": 385108
+    "mcap": 385108,
+    "name": "Mahindra & Mahindra Ltd."
   },
   {
     "SecurityID": 7794,
     "rank": 18,
-    "mcap": 381340
+    "mcap": 381340,
+    "name": "Adani Ports and Special Economic Zone Ltd."
   },
   {
     "SecurityID": 5886,
     "rank": 19,
-    "mcap": 380601
+    "mcap": 380601,
+    "name": "Kotak Mahindra Bank Ltd."
   },
   {
     "SecurityID": 5774,
     "rank": 20,
-    "mcap": 376591
+    "mcap": 376591,
+    "name": "Oil & Natural Gas Corporation Ltd."
   },
   {
     "SecurityID": 6850,
     "rank": 21,
-    "mcap": 341321
+    "mcap": 341321,
+    "name": "Ultratech Cement Ltd."
   },
   {
     "SecurityID": 8219,
     "rank": 22,
-    "mcap": 325355
+    "mcap": 325355,
+    "name": "HCL Technologies Ltd."
   },
   {
     "SecurityID": 5981,
     "rank": 23,
-    "mcap": 315307
+    "mcap": 315307,
+    "name": "Bharat Electronics Ltd."
   },
   {
     "SecurityID": 6614,
     "rank": 24,
-    "mcap": 312934
+    "mcap": 312934,
+    "name": "Adani Enterprises Ltd."
   },
   {
     "SecurityID": 4968,
     "rank": 25,
-    "mcap": 309179
+    "mcap": 309179,
+    "name": "JSW Steel Ltd."
   },
   {
     "SecurityID": 7007,
     "rank": 26,
-    "mcap": 296643
+    "mcap": 296643,
+    "name": "Coal India Ltd."
   },
   {
     "SecurityID": 7825,
     "rank": 27,
-    "mcap": 295992
+    "mcap": 295992,
+    "name": "Power Grid Corporation Of India Ltd."
   },
   {
     "SecurityID": 5891,
     "rank": 28,
-    "mcap": 281110
+    "mcap": 281110,
+    "name": "Nestle India Ltd."
   },
   {
     "SecurityID": 8443,
     "rank": 29,
-    "mcap": 279608
+    "mcap": 279608,
+    "name": "Bajaj Finserv Ltd."
   },
   {
     "SecurityID": 8442,
     "rank": 30,
-    "mcap": 279435
+    "mcap": 279435,
+    "name": "Bajaj Auto Ltd."
   },
   {
     "SecurityID": 5226,
     "rank": 31,
-    "mcap": 263775
+    "mcap": 263775,
+    "name": "Tata Steel Ltd."
   },
   {
     "SecurityID": 98676,
     "rank": 32,
-    "mcap": 238171
+    "mcap": 238171,
+    "name": "Eternal Ltd."
   },
   {
     "SecurityID": 4978,
     "rank": 33,
-    "mcap": 234485
+    "mcap": 234485,
+    "name": "Asian Paints Ltd."
   },
   {
     "SecurityID": 5043,
     "rank": 34,
-    "mcap": 233105
+    "mcap": 233105,
+    "name": "Hindalco Industries Ltd."
   },
   {
     "SecurityID": 7719,
     "rank": 35,
-    "mcap": 220529
+    "mcap": 220529,
+    "name": "Shriram Finance Ltd."
   },
   {
     "SecurityID": 5199,
     "rank": 36,
-    "mcap": 210460
+    "mcap": 210460,
+    "name": "Wipro Ltd."
   },
   {
     "SecurityID": 5156,
     "rank": 37,
-    "mcap": 195048
+    "mcap": 195048,
+    "name": "Eicher Motors Ltd."
   },
   {
     "SecurityID": 5078,
     "rank": 38,
-    "mcap": 190059
+    "mcap": 190059,
+    "name": "Grasim Industries Ltd."
   },
   {
     "SecurityID": 86648,
     "rank": 39,
-    "mcap": 182543
+    "mcap": 182543,
+    "name": "SBI Life Insurance Company Ltd."
   },
   {
     "SecurityID": 15829,
     "rank": 40,
-    "mcap": 166094
+    "mcap": 166094,
+    "name": "Interglobe Aviation Ltd."
   },
   {
     "SecurityID": 110949,
     "rank": 41,
-    "mcap": 162701
+    "mcap": 162701,
+    "name": "JIO Financial Services Ltd."
   },
   {
     "SecurityID": 8185,
     "rank": 42,
-    "mcap": 147325
+    "mcap": 147325,
+    "name": "Trent Ltd."
   },
   {
     "SecurityID": 7531,
     "rank": 43,
-    "mcap": 144433
+    "mcap": 144433,
+    "name": "Tech Mahindra Ltd."
   },
   {
     "SecurityID": 86912,
     "rank": 44,
-    "mcap": 126599
+    "mcap": 126599,
+    "name": "HDFC Life Insurance Company Ltd."
   },
   {
     "SecurityID": 5539,
     "rank": 45,
-    "mcap": 125792
+    "mcap": 125792,
+    "name": "Tata Motors Passenger Vehicles Ltd."
   },
   {
     "SecurityID": 5684,
     "rank": 46,
-    "mcap": 113250
+    "mcap": 113250,
+    "name": "Tata Consumer Products Ltd."
   },
   {
     "SecurityID": 5257,
     "rank": 47,
-    "mcap": 110421
+    "mcap": 110421,
+    "name": "Dr. Reddy's Laboratories Ltd."
   },
   {
     "SecurityID": 6672,
     "rank": 48,
-    "mcap": 109840
+    "mcap": 109840,
+    "name": "Apollo Hospitals Enterprise Ltd."
   },
   {
     "SecurityID": 5128,
     "rank": 49,
-    "mcap": 105811
+    "mcap": 105811,
+    "name": "Cipla Ltd."
   },
   {
     "SecurityID": 96064,
     "rank": 50,
-    "mcap": 96657
+    "mcap": 96657,
+    "name": "Max Healthcare Institute Ltd."
   }
 ]
