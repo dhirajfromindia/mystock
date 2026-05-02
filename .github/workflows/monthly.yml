@@ -1,0 +1,30 @@
+name: Monthly Summary Email
+
+on:
+  schedule:
+    - cron: "30 15 1 * *"  # 9:00 PM IST on the 1st of each month
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install axios nodemailer
+
+      - name: Run monthly script
+        run: node monthly.js
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          TO_EMAIL_LIST: ${{ secrets.TO_EMAIL_LIST }}
+          STOCK_API_URL: ${{ secrets.STOCK_API_URL }}

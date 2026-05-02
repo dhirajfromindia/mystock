@@ -61,8 +61,8 @@ async function run() {
   const data = readData();
   if (data.length === 0) return;
 
-  const daysAgo = 7;
-  const topN = Math.max(1, Math.min(data.length, Number(process.env.WEEKLY_TOP_N) || 20));
+  const daysAgo = 30;
+  const topN = Math.max(1, Math.min(data.length, Number(process.env.MONTHLY_TOP_N) || 20));
   const { topList, gainers, losers, summary } = buildReportData(data, daysAgo, topN);
 
   const rowsHtml = topList.map(item => `
@@ -96,8 +96,8 @@ async function run() {
   const html = `
 <div style="font-family: Arial, sans-serif; background:#f4f6f9; padding:20px;">
   <div style="max-width:1100px;margin:auto;background:white;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,0.08);">
-    <div style="background:#0d6efd;color:white;padding:18px 20px;text-align:center;font-size:22px;font-weight:bold;">
-      Weekly Stock Summary
+    <div style="background:#198754;color:white;padding:18px 20px;text-align:center;font-size:22px;font-weight:bold;">
+      Monthly Stock Summary
     </div>
     <div style="padding:20px;">
       <p style="font-size:14px;color:#555;margin-top:0;">
@@ -125,8 +125,8 @@ async function run() {
         </div>
       </div>
       <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px;">
-        ${renderMoverList("Top 3 Weekly Gainers", gainers)}
-        ${renderMoverList("Top 3 Weekly Losers", losers)}
+        ${renderMoverList("Top 3 Monthly Gainers", gainers)}
+        ${renderMoverList("Top 3 Monthly Losers", losers)}
       </div>
       <table style="width:100%;border-collapse:collapse;font-size:14px;">
         <thead>
@@ -136,7 +136,7 @@ async function run() {
             <th style="padding:10px;border:1px solid #ddd;">Current MCap</th>
             <th style="padding:10px;border:1px solid #ddd;">Previous MCap</th>
             <th style="padding:10px;border:1px solid #ddd;">Abs Change</th>
-            <th style="padding:10px;border:1px solid #ddd;">Change (7d)</th>
+            <th style="padding:10px;border:1px solid #ddd;">Change (30d)</th>
             <th style="padding:10px;border:1px solid #ddd;">Rank Change</th>
           </tr>
         </thead>
@@ -145,19 +145,19 @@ async function run() {
         </tbody>
       </table>
       <p style="margin-top:16px;font-size:12px;color:#777;">
-        N/A means enough 7-day history is not available yet. Rank change is derived from the historical market-cap snapshot closest to 7 days ago.
+        N/A means enough 30-day history is not available yet. Rank change is derived from the historical market-cap snapshot closest to 30 days ago.
       </p>
     </div>
   </div>
 </div>
 `;
 
-  const text = `Weekly Stock Summary (${start} to ${today})\nGenerated in IST: ${istNow}\nSummary: ${summary.up} up, ${summary.down} down, ${summary.unchanged} unchanged, ${summary.newEntries} new in top ${topN}, ${summary.insufficient} with insufficient history.\n\n${moverText("Top 3 Weekly Gainers", gainers)}\n\n${moverText("Top 3 Weekly Losers", losers)}\n\nTop ${topN} Companies\n${rowsText}\n\nN/A means enough 7-day history is not available yet.`;
+  const text = `Monthly Stock Summary (${start} to ${today})\nGenerated in IST: ${istNow}\nSummary: ${summary.up} up, ${summary.down} down, ${summary.unchanged} unchanged, ${summary.newEntries} new in top ${topN}, ${summary.insufficient} with insufficient history.\n\n${moverText("Top 3 Monthly Gainers", gainers)}\n\n${moverText("Top 3 Monthly Losers", losers)}\n\nTop ${topN} Companies\n${rowsText}\n\nN/A means enough 30-day history is not available yet.`;
 
   await transporter.sendMail({
     from: process.env.EMAIL_USER,
     to: process.env.TO_EMAIL_LIST,
-    subject: `Weekly Stock Summary ${start} to ${today}`,
+    subject: `Monthly Stock Summary ${start} to ${today}`,
     text,
     html
   });

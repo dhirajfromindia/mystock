@@ -34,7 +34,7 @@ jobs:
           TO_EMAIL_LIST: ${{ secrets.TO_EMAIL_LIST }}
           STOCK_API_URL: ${{ secrets.STOCK_API_URL }}
 
-      - name: Commit & Push data.json
+      - name: Commit & Push tracker data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -43,5 +43,5 @@ jobs:
 
           git diff --cached --quiet && echo "No changes" && exit 0
 
-          git commit -m "update data.json"
+          git commit -m "update tracker history"
           git push
