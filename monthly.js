@@ -116,55 +116,45 @@ async function run() {
 
   const html = `
 <div style="font-family: Arial, sans-serif; background:#f4f6f9; padding:12px;">
-  <style>
-    @media only screen and (max-width: 640px) {
-      .report-shell { width: 100% !important; border-radius: 0 !important; }
-      .report-body { padding: 14px !important; }
-      .summary-card { min-width: calc(50% - 8px) !important; }
-      .mover-card { min-width: 100% !important; }
-    }
-  </style>
-  <div class="report-shell" style="max-width:760px;margin:auto;background:white;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,0.08);">
-    <div style="background:#198754;color:white;padding:18px 20px;text-align:center;font-size:22px;font-weight:bold;">
-      Monthly Stock Summary
-    </div>
-    <div class="report-body" style="padding:20px;">
-      <p style="font-size:14px;color:#555;margin-top:0;">
-        Snapshot window: <b>${start}</b> to <b>${today}</b>. Generated in IST: <b>${istNow}</b>.
-      </p>
-      <p style="font-size:14px;color:#555;">
-        Top <b>${topN}</b> companies with market-cap trend, absolute movement, and derived rank change.
-      </p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:16px 0;">
-        <div class="summary-card" style="flex:1;min-width:160px;background:#eefaf2;border:1px solid #d6f0df;border-radius:10px;padding:12px;">
-          <div style="font-size:12px;color:#4d6b57;">Up</div>
-          <div style="font-size:22px;font-weight:700;color:#198754;">${summary.up}</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:760px;margin:auto;background:white;border-collapse:collapse;border:1px solid #e5e7eb;">
+    <tr>
+      <td style="background:#198754;color:white;padding:18px 20px;text-align:center;font-size:22px;font-weight:bold;">
+        Monthly Stock Summary
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:20px;font-family: Arial, sans-serif;">
+        <p style="font-size:14px;color:#555;margin-top:0;">
+          Snapshot window: <b>${start}</b> to <b>${today}</b>. Generated in IST: <b>${istNow}</b>.
+        </p>
+        <p style="font-size:14px;color:#555;">
+          Top <b>${topN}</b> companies with market-cap trend, absolute movement, and derived rank change.
+        </p>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin:16px 0;">
+          <tr>
+            ${renderSummaryRow("Up", summary.up, "#198754", "#eefaf2")}
+            ${renderSummaryRow("Down", summary.down, "#dc3545", "#fff1f1")}
+          </tr>
+          <tr>
+            ${renderSummaryRow("Unchanged", summary.unchanged, "#495057", "#f5f6f8")}
+            ${renderSummaryRow(`New In Top ${topN}`, summary.newEntries, "#9a6b00", "#fff8e6")}
+          </tr>
+        </table>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin-bottom:18px;">
+          <tr>
+            <td style="padding:0 6px 0 0;vertical-align:top;">${renderMoverList("Top 3 Monthly Gainers", gainers)}</td>
+            <td style="padding:0 0 0 6px;vertical-align:top;">${renderMoverList("Top 3 Monthly Losers", losers)}</td>
+          </tr>
+        </table>
+        <div>
+          ${cardsHtml}
         </div>
-        <div class="summary-card" style="flex:1;min-width:160px;background:#fff1f1;border:1px solid #f1d3d3;border-radius:10px;padding:12px;">
-          <div style="font-size:12px;color:#7d5a5a;">Down</div>
-          <div style="font-size:22px;font-weight:700;color:#dc3545;">${summary.down}</div>
-        </div>
-        <div class="summary-card" style="flex:1;min-width:160px;background:#f5f6f8;border:1px solid #e4e6eb;border-radius:10px;padding:12px;">
-          <div style="font-size:12px;color:#626a73;">Unchanged</div>
-          <div style="font-size:22px;font-weight:700;color:#495057;">${summary.unchanged}</div>
-        </div>
-        <div class="summary-card" style="flex:1;min-width:160px;background:#fff8e6;border:1px solid #f5e3a9;border-radius:10px;padding:12px;">
-          <div style="font-size:12px;color:#7a5d00;">New In Top ${topN}</div>
-          <div style="font-size:22px;font-weight:700;color:#9a6b00;">${summary.newEntries}</div>
-        </div>
-      </div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px;">
-        ${renderMoverList("Top 3 Monthly Gainers", gainers)}
-        ${renderMoverList("Top 3 Monthly Losers", losers)}
-      </div>
-      <div>
-        ${cardsHtml}
-      </div>
-      <p style="margin-top:16px;font-size:12px;color:#777;">
-        N/A means enough 30-day history is not available yet. Rank change is derived from the historical market-cap snapshot closest to 30 days ago.
-      </p>
-    </div>
-  </div>
+        <p style="margin-top:16px;font-size:12px;color:#777;">
+          N/A means enough 30-day history is not available yet. Rank change is derived from the historical market-cap snapshot closest to 30 days ago.
+        </p>
+      </td>
+    </tr>
+  </table>
 </div>
 `;
 

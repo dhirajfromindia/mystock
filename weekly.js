@@ -57,36 +57,49 @@ function renderMoverList(title, items) {
   `;
 }
 
-function renderMobileCard(item, periodLabel) {
+function renderSummaryRow(label, value, color, bg) {
   return `
-    <div style="border:1px solid #dfe3e8;border-radius:10px;padding:12px;margin-bottom:12px;background:#fff;">
-      <div style="display:flex;justify-content:space-between;gap:8px;align-items:flex-start;margin-bottom:10px;">
-        <div style="font-size:15px;font-weight:700;color:#111;">#${item.currentRank} ${item.name}</div>
-        ${item.isNewInTopN ? '<span style="background:#fff3cd;color:#7a5d00;font-size:11px;padding:2px 6px;border-radius:999px;white-space:nowrap;">New</span>' : ""}
-      </div>
-      <table style="width:100%;border-collapse:collapse;font-size:13px;">
-        <tr>
-          <td style="padding:6px 0;color:#6b7280;width:44%;">Current MCap</td>
-          <td style="padding:6px 0;text-align:right;font-weight:700;">${formatNumber(item.mcap)}</td>
-        </tr>
-        <tr>
-          <td style="padding:6px 0;color:#6b7280;">Previous MCap</td>
-          <td style="padding:6px 0;text-align:right;">${formatNumber(item.previousMcap)}</td>
-        </tr>
-        <tr>
-          <td style="padding:6px 0;color:#6b7280;">Abs Change</td>
-          <td style="padding:6px 0;text-align:right;">${formatAbsoluteChange(item.absoluteChange)}</td>
-        </tr>
-        <tr>
-          <td style="padding:6px 0;color:#6b7280;">Change (${periodLabel})</td>
-          <td style="padding:6px 0;text-align:right;">${changeHtml(item.changePct)}</td>
-        </tr>
-        <tr>
-          <td style="padding:6px 0;color:#6b7280;">Rank Change</td>
-          <td style="padding:6px 0;text-align:right;">${item.rankChangeText}</td>
-        </tr>
-      </table>
-    </div>
+    <td style="padding:12px;border:1px solid #e5e7eb;background:${bg};">
+      <div style="font-size:12px;color:#6b7280;">${label}</div>
+      <div style="font-size:22px;font-weight:700;color:${color};margin-top:4px;">${value}</div>
+    </td>
+  `;
+}
+
+function renderCompanyBlock(item, periodLabel) {
+  return `
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #dfe3e8;border-radius:10px;background:#fff;margin-bottom:12px;border-collapse:separate;">
+      <tr>
+        <td style="padding:12px 12px 8px 12px;border-bottom:1px solid #eef0f3;">
+          <div style="font-size:15px;font-weight:700;color:#111;">#${item.currentRank} ${item.name}</div>
+          ${item.isNewInTopN ? '<div style="display:inline-block;margin-top:6px;background:#fff3cd;color:#7a5d00;font-size:11px;padding:2px 6px;border-radius:999px;">New</div>' : ""}
+        </td>
+      </tr>
+      <tr><td style="padding:0 12px 12px 12px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:13px;">
+          <tr>
+            <td style="padding:8px 0;color:#6b7280;width:44%;">Current MCap</td>
+            <td style="padding:8px 0;text-align:right;font-weight:700;">${formatNumber(item.mcap)}</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 0;color:#6b7280;">Previous MCap</td>
+            <td style="padding:8px 0;text-align:right;">${formatNumber(item.previousMcap)}</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 0;color:#6b7280;">Abs Change</td>
+            <td style="padding:8px 0;text-align:right;">${formatAbsoluteChange(item.absoluteChange)}</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 0;color:#6b7280;">Change (${periodLabel})</td>
+            <td style="padding:8px 0;text-align:right;">${changeHtml(item.changePct)}</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 0;color:#6b7280;">Rank Change</td>
+            <td style="padding:8px 0;text-align:right;">${item.rankChangeText}</td>
+          </tr>
+        </table>
+      </td></tr>
+    </table>
   `;
 }
 
@@ -98,7 +111,7 @@ async function run() {
   const topN = Math.max(1, Math.min(data.length, Number(process.env.WEEKLY_TOP_N) || 20));
   const { topList, gainers, losers, summary } = buildReportData(data, daysAgo, topN);
 
-  const cardsHtml = topList.map(item => renderMobileCard(item, "7d")).join("");
+  const cardsHtml = topList.map(item => renderCompanyBlock(item, "7d")).join("");
 
   const rowsText = topList.map(item => {
     const marker = item.isNewInTopN ? " [New]" : "";
@@ -115,57 +128,51 @@ async function run() {
   const istNow = formatIstTimestamp();
 
   const html = `
-<div style="font-family: Arial, sans-serif; background:#f4f6f9; padding:12px;">
-  <style>
-    @media only screen and (max-width: 640px) {
-      .report-shell { width: 100% !important; border-radius: 0 !important; }
-      .report-body { padding: 14px !important; }
-      .summary-card { min-width: calc(50% - 8px) !important; }
-      .mover-card { min-width: 100% !important; }
-    }
-  </style>
-  <div class="report-shell" style="max-width:760px;margin:auto;background:white;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,0.08);">
-    <div style="background:#0d6efd;color:white;padding:18px 20px;text-align:center;font-size:22px;font-weight:bold;">
-      Weekly Stock Summary
-    </div>
-    <div class="report-body" style="padding:20px;">
-      <p style="font-size:14px;color:#555;margin-top:0;">
-        Snapshot window: <b>${start}</b> to <b>${today}</b>. Generated in IST: <b>${istNow}</b>.
-      </p>
-      <p style="font-size:14px;color:#555;">
-        Top <b>${topN}</b> companies with market-cap trend, absolute movement, and derived rank change.
-      </p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:16px 0;">
-        <div class="summary-card" style="flex:1;min-width:160px;background:#eefaf2;border:1px solid #d6f0df;border-radius:10px;padding:12px;">
-          <div style="font-size:12px;color:#4d6b57;">Up</div>
-          <div style="font-size:22px;font-weight:700;color:#198754;">${summary.up}</div>
-        </div>
-        <div class="summary-card" style="flex:1;min-width:160px;background:#fff1f1;border:1px solid #f1d3d3;border-radius:10px;padding:12px;">
-          <div style="font-size:12px;color:#7d5a5a;">Down</div>
-          <div style="font-size:22px;font-weight:700;color:#dc3545;">${summary.down}</div>
-        </div>
-        <div class="summary-card" style="flex:1;min-width:160px;background:#f5f6f8;border:1px solid #e4e6eb;border-radius:10px;padding:12px;">
-          <div style="font-size:12px;color:#626a73;">Unchanged</div>
-          <div style="font-size:22px;font-weight:700;color:#495057;">${summary.unchanged}</div>
-        </div>
-        <div class="summary-card" style="flex:1;min-width:160px;background:#fff8e6;border:1px solid #f5e3a9;border-radius:10px;padding:12px;">
-          <div style="font-size:12px;color:#7a5d00;">New In Top ${topN}</div>
-          <div style="font-size:22px;font-weight:700;color:#9a6b00;">${summary.newEntries}</div>
-        </div>
-      </div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px;">
-        ${renderMoverList("Top 3 Weekly Gainers", gainers)}
-        ${renderMoverList("Top 3 Weekly Losers", losers)}
-      </div>
-      <div>
-        ${cardsHtml}
-      </div>
-      <p style="margin-top:16px;font-size:12px;color:#777;">
-        N/A means enough 7-day history is not available yet. Rank change is derived from the historical market-cap snapshot closest to 7 days ago.
-      </p>
-    </div>
-  </div>
-</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f6f9;padding:12px 0;border-collapse:collapse;">
+  <tr>
+    <td align="center">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:760px;background:#ffffff;border-collapse:collapse;border:1px solid #e5e7eb;">
+        <tr>
+          <td style="background:#0d6efd;color:white;padding:18px 20px;text-align:center;font-size:22px;font-weight:bold;">
+            Weekly Stock Summary
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:20px;font-family: Arial, sans-serif;">
+            <p style="font-size:14px;color:#555;margin-top:0;">
+              Snapshot window: <b>${start}</b> to <b>${today}</b>. Generated in IST: <b>${istNow}</b>.
+            </p>
+            <p style="font-size:14px;color:#555;">
+              Top <b>${topN}</b> companies with market-cap trend, absolute movement, and derived rank change.
+            </p>
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin:16px 0;">
+              <tr>
+                ${renderSummaryRow("Up", summary.up, "#198754", "#eefaf2")}
+                ${renderSummaryRow("Down", summary.down, "#dc3545", "#fff1f1")}
+              </tr>
+              <tr>
+                ${renderSummaryRow("Unchanged", summary.unchanged, "#495057", "#f5f6f8")}
+                ${renderSummaryRow(`New In Top ${topN}`, summary.newEntries, "#9a6b00", "#fff8e6")}
+              </tr>
+            </table>
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin-bottom:18px;">
+              <tr>
+                <td style="padding:0 6px 0 0;vertical-align:top;">${renderMoverList("Top 3 Weekly Gainers", gainers)}</td>
+                <td style="padding:0 0 0 6px;vertical-align:top;">${renderMoverList("Top 3 Weekly Losers", losers)}</td>
+              </tr>
+            </table>
+            <div>
+              ${cardsHtml}
+            </div>
+            <p style="margin-top:16px;font-size:12px;color:#777;">
+              N/A means enough 7-day history is not available yet. Rank change is derived from the historical market-cap snapshot closest to 7 days ago.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 `;
 
   const text = `Weekly Stock Summary (${start} to ${today})\nGenerated in IST: ${istNow}\nSummary: ${summary.up} up, ${summary.down} down, ${summary.unchanged} unchanged, ${summary.newEntries} new in top ${topN}, ${summary.insufficient} with insufficient history.\n\n${moverText("Top 3 Weekly Gainers", gainers)}\n\n${moverText("Top 3 Weekly Losers", losers)}\n\nTop ${topN} Companies\n${rowsText}\n\nN/A means enough 7-day history is not available yet.`;
