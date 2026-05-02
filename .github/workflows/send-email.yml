@@ -1,0 +1,50 @@
+name: Send Email Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install nodemailer
+        run: npm install nodemailer
+
+      - name: Send Email
+        run: |
+          node -e "
+          const nodemailer = require('nodemailer');
+
+          const transporter = nodemailer.createTransport({
+            service: 'gmail',
+            auth: {
+              user: process.env.EMAIL_USER,
+              pass: process.env.EMAIL_PASS
+            }
+          });
+
+          const mailOptions = {
+            from: process.env.EMAIL_USER,
+            to: process.env.TO_EMAIL_LIST,
+            subject: '🚀 GitHub Actions Live Test Email',
+            text: 'Hello! This email is sent from GitHub Actions successfully 🎉'
+          };
+
+          transporter.sendMail(mailOptions, function(error, info){
+            if (error) {
+              console.log('Error:', error);
+            } else {
+              console.log('Email sent:', info.response);
+            }
+          });
+          "
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          TO_EMAIL_LIST: ${{ secrets.TO_EMAIL_LIST }}
