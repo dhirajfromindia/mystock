@@ -1,49 +1,28 @@
-name: Send Email Test
+name: Stock Tracker Email
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * *"  # 8:30 PM IST
 
 jobs:
-  send-email:
+  run-tracker:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: Install nodemailer
-        run: npm install nodemailer
+      - name: Install dependencies
+        run: npm install
 
-      - name: Send Email
-        run: |
-          node -e "
-          const nodemailer = require('nodemailer');
-
-          const transporter = nodemailer.createTransport({
-            service: 'gmail',
-            auth: {
-              user: process.env.EMAIL_USER,
-              pass: process.env.EMAIL_PASS
-            }
-          });
-
-          const mailOptions = {
-            from: process.env.EMAIL_USER,
-            to: process.env.TO_EMAIL_LIST,
-            subject: '🚀 GitHub Actions Live Test Email',
-            text: 'Hello! This email is sent from GitHub Actions successfully 🎉'
-          };
-
-          transporter.sendMail(mailOptions, function(error, info){
-            if (error) {
-              console.log('Error:', error);
-            } else {
-              console.log('Email sent:', info.response);
-            }
-          });
-          "
+      - name: Run tracker
+        run: node tracker.js
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
