@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 async function sendEmail(msg) {
   await transporter.sendMail({
     from: process.env.EMAIL_USER,
-    to: process.env.EMAIL_TO,   // 👈 single or list (a,b,c)
+    to: process.env.TO_EMAIL_LIST,   // 👈 single or list (a,b,c)
     subject: "📊 Stock Market Daily Update",
     text: msg
   });
