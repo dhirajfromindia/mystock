@@ -68,19 +68,22 @@ Jumped ${top.from - top.to} ranks`;
   await sendEmail(msg);
 
   // 💾 update file
-  fs.writeFileSync(
-    "data.json",
-    JSON.stringify(
-      latest.map((x, i) => ({
-        SecurityID: x.SecurityID,
-        rank: i + 1,
-        mcap: x.MCap,
-        name: x.Nm
-      })),
-      null,
-      2
-    )
-  );
+  // create a snapshot array once and write both a current snapshot and a dated snapshot
+  const snapshot = latest.map((x, i) => ({
+    SecurityID: x.SecurityID,
+    rank: i + 1,
+    mcap: Number(x.MCap),
+    name: x.Nm
+  }));
+
+  // write the canonical data.json used by other scripts
+  fs.writeFileSync("data.json", JSON.stringify(snapshot, null, 2));
+
+  // also save a dated snapshot for weekly comparisons
+  const snapshotsDir = "snapshots";
+  if (!fs.existsSync(snapshotsDir)) fs.mkdirSync(snapshotsDir, { recursive: true });
+  const dateStr = new Date().toISOString().slice(0, 10);
+  fs.writeFileSync(`${snapshotsDir}/${dateStr}.json`, JSON.stringify(snapshot, null, 2));
 }
 
 run();
