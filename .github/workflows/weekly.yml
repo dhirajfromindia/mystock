@@ -1,8 +1,8 @@
-name: Weekly Summary
+name: Weekly Summary Email
 
 on:
   schedule:
-    - cron: '0 12 * * 5'
+    - cron: "30 15 * * 0"  # Sunday 8:30 PM IST
   workflow_dispatch:
 
 jobs:
@@ -10,12 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - run: npm install
-      - run: node weekly.js
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install axios nodemailer
+
+      - name: Run weekly script
+        run: node weekly.js
         env:
-          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
-          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
-          TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
-          TWILIO_TO: ${{ secrets.TWILIO_TO }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          TO_EMAIL_LIST: ${{ secrets.TO_EMAIL_LIST }}
           STOCK_API_URL: ${{ secrets.STOCK_API_URL }}
