@@ -48,3 +48,4 @@ jobs:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           TO_EMAIL_LIST: ${{ secrets.TO_EMAIL_LIST }}
+          STOCK_API_URL: ${{ secrets.STOCK_API_URL }}
