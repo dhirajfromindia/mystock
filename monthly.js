@@ -57,6 +57,15 @@ function renderMoverList(title, items) {
   `;
 }
 
+function renderSummaryRow(label, value, color, bg) {
+  return `
+    <td style="padding:12px;border:1px solid #e5e7eb;background:${bg};">
+      <div style="font-size:12px;color:#6b7280;">${label}</div>
+      <div style="font-size:22px;font-weight:700;color:${color};margin-top:4px;">${value}</div>
+    </td>
+  `;
+}
+
 function renderMobileCard(item, periodLabel) {
   return `
     <div style="border:1px solid #dfe3e8;border-radius:10px;padding:12px;margin-bottom:12px;background:#fff;">
