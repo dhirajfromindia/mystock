@@ -115,7 +115,7 @@ function formatRankChange(currentRank, previousRank, topN) {
   return "No change";
 }
 
-function buildReportData(data, daysAgo, topN) {
+function buildReportData(data, daysAgo, topN, moverLimit = 20) {
   const previousRankMap = buildPreviousRankMap(data, daysAgo);
 
   const enriched = data.map(item => {
@@ -139,20 +139,19 @@ function buildReportData(data, daysAgo, topN) {
     };
   });
 
-  const topList = enriched.slice(0, topN);
   const validChanges = enriched.filter(item => item.changePct !== null);
 
   const gainers = [...validChanges]
     .filter(item => item.changePct > 0)
     .sort((a, b) => b.changePct - a.changePct)
-    .slice(0, 3);
+    .slice(0, moverLimit);
 
   const losers = [...validChanges]
     .filter(item => item.changePct < 0)
     .sort((a, b) => a.changePct - b.changePct)
-    .slice(0, 3);
+    .slice(0, moverLimit);
 
-  const summary = topList.reduce((acc, item) => {
+  const summary = enriched.reduce((acc, item) => {
     if (item.changePct === null) {
       acc.insufficient += 1;
     } else if (item.changePct > 0) {
@@ -171,7 +170,6 @@ function buildReportData(data, daysAgo, topN) {
   }, { up: 0, down: 0, unchanged: 0, insufficient: 0, newEntries: 0 });
 
   return {
-    topList,
     gainers,
     losers,
     summary

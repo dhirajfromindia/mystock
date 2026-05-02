@@ -104,20 +104,11 @@ async function run() {
   if (data.length === 0) return;
 
   const daysAgo = 30;
-  const topN = Math.max(1, Math.min(data.length, Number(process.env.MONTHLY_TOP_N) || 20));
-  const { topList, gainers, losers, summary } = buildReportData(data, daysAgo, topN);
+  const moverLimit = Math.max(1, Math.min(data.length, Number(process.env.MONTHLY_TOP_N) || 20));
+  const { gainers, losers, summary } = buildReportData(data, daysAgo, moverLimit, moverLimit);
 
-  const cardsHtml = topList.map(item => renderMobileCard(item, "30d")).join("");
-
-  const rowsText = topList.map(item => {
-    const marker = item.isNewInTopN ? " [New]" : "";
-    return `${item.currentRank}. ${item.name}${marker} | Current: ${formatNumber(item.mcap)} | Previous: ${formatNumber(item.previousMcap)} | Abs: ${formatAbsoluteChange(item.absoluteChange)} | Change: ${formatPercent(item.changePct)} | Rank: ${item.rankChangeText}`;
-  }).join("\n");
-
-  const moverText = (title, items) => {
-    if (items.length === 0) return `${title}: No data available yet.`;
-    return `${title}:\n${items.map((item, index) => `${index + 1}. ${item.name} (${formatPercent(item.changePct)}, ${formatAbsoluteChange(item.absoluteChange)})`).join("\n")}`;
-  };
+  const gainersHtml = gainers.map(item => renderMobileCard(item, "30d")).join("");
+  const losersHtml = losers.map(item => renderMobileCard(item, "30d")).join("");
 
   const today = formatIsoDate(0);
   const start = formatIsoDate(daysAgo);
@@ -137,27 +128,22 @@ async function run() {
           Snapshot window: <b>${start}</b> to <b>${today}</b>. Generated in IST: <b>${istNow}</b>.
         </p>
         <p style="font-size:14px;color:#555;">
-          Top <b>${topN}</b> companies with market-cap trend, absolute movement, and derived rank change.
+          Top <b>${moverLimit}</b> gainers and losers sorted by 30-day percentage change.
         </p>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin:16px 0;">
           <tr>
-            ${renderSummaryRow("Up", summary.up, "#198754", "#eefaf2")}
-            ${renderSummaryRow("Down", summary.down, "#dc3545", "#fff1f1")}
+            ${renderSummaryRow("Gainers", gainers.length, "#198754", "#eefaf2")}
+            ${renderSummaryRow("Losers", losers.length, "#dc3545", "#fff1f1")}
           </tr>
           <tr>
             ${renderSummaryRow("Unchanged", summary.unchanged, "#495057", "#f5f6f8")}
-            ${renderSummaryRow(`New In Top ${topN}`, summary.newEntries, "#9a6b00", "#fff8e6")}
+            ${renderSummaryRow("Tracked", summary.up + summary.down + summary.unchanged + summary.insufficient, "#9a6b00", "#fff8e6")}
           </tr>
         </table>
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin-bottom:18px;">
-          <tr>
-            <td style="padding:0 6px 0 0;vertical-align:top;">${renderMoverList("Top 3 Monthly Gainers", gainers)}</td>
-            <td style="padding:0 0 0 6px;vertical-align:top;">${renderMoverList("Top 3 Monthly Losers", losers)}</td>
-          </tr>
-        </table>
-        <div>
-          ${cardsHtml}
-        </div>
+        <p style="font-size:15px;font-weight:700;color:#111;margin:18px 0 10px 0;">Top ${moverLimit} Monthly Gainers</p>
+        <div>${gainersHtml}</div>
+        <p style="font-size:15px;font-weight:700;color:#111;margin:18px 0 10px 0;">Top ${moverLimit} Monthly Losers</p>
+        <div>${losersHtml}</div>
         <p style="margin-top:16px;font-size:12px;color:#777;">
           N/A means enough 30-day history is not available yet. Rank change is derived from the historical market-cap snapshot closest to 30 days ago.
         </p>
@@ -167,7 +153,7 @@ async function run() {
 </div>
 `;
 
-  const text = `Monthly Stock Summary (${start} to ${today})\nGenerated in IST: ${istNow}\nSummary: ${summary.up} up, ${summary.down} down, ${summary.unchanged} unchanged, ${summary.newEntries} new in top ${topN}, ${summary.insufficient} with insufficient history.\n\n${moverText("Top 3 Monthly Gainers", gainers)}\n\n${moverText("Top 3 Monthly Losers", losers)}\n\nTop ${topN} Companies\n${rowsText}\n\nN/A means enough 30-day history is not available yet.`;
+  const text = `Monthly Stock Summary (${start} to ${today})\nGenerated in IST: ${istNow}\nSummary: ${gainers.length} gainers, ${losers.length} losers, ${summary.unchanged} unchanged, ${summary.insufficient} with insufficient history.\n\nTop ${moverLimit} Monthly Gainers\n${gainers.map((item, index) => `${index + 1}. ${item.name} (${formatPercent(item.changePct)}, ${formatAbsoluteChange(item.absoluteChange)})`).join("\n")}\n\nTop ${moverLimit} Monthly Losers\n${losers.map((item, index) => `${index + 1}. ${item.name} (${formatPercent(item.changePct)}, ${formatAbsoluteChange(item.absoluteChange)})`).join("\n")}\n\nN/A means enough 30-day history is not available yet.`;
 
   await transporter.sendMail({
     from: process.env.EMAIL_USER,
