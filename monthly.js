@@ -57,25 +57,9 @@ function renderMoverList(title, items) {
   `;
 }
 
-function renderDesktopRow(item) {
-  return `
-    <tr>
-      <td style="padding:10px;border:1px solid #ddd;text-align:center;font-weight:700;">${item.currentRank}</td>
-      <td style="padding:10px;border:1px solid #ddd;line-height:1.4;">
-        ${item.name}${item.isNewInTopN ? ' <span style="background:#fff3cd;color:#7a5d00;font-size:11px;padding:2px 6px;border-radius:999px;">New</span>' : ""}
-      </td>
-      <td style="padding:10px;border:1px solid #ddd;text-align:right;">${formatNumber(item.mcap)}</td>
-      <td style="padding:10px;border:1px solid #ddd;text-align:right;">${formatNumber(item.previousMcap)}</td>
-      <td style="padding:10px;border:1px solid #ddd;text-align:right;${changeCellStyle(item.changePct)}">${formatAbsoluteChange(item.absoluteChange)}</td>
-      <td style="padding:10px;border:1px solid #ddd;text-align:center;${changeCellStyle(item.changePct)}">${changeHtml(item.changePct)}</td>
-      <td style="padding:10px;border:1px solid #ddd;text-align:center;">${item.rankChangeText}</td>
-    </tr>
-  `;
-}
-
 function renderMobileCard(item, periodLabel) {
   return `
-    <div class="mobile-card" style="display:none;border:1px solid #dfe3e8;border-radius:10px;padding:12px;margin-bottom:12px;background:#fff;">
+    <div style="border:1px solid #dfe3e8;border-radius:10px;padding:12px;margin-bottom:12px;background:#fff;">
       <div style="display:flex;justify-content:space-between;gap:8px;align-items:flex-start;margin-bottom:10px;">
         <div style="font-size:15px;font-weight:700;color:#111;">#${item.currentRank} ${item.name}</div>
         ${item.isNewInTopN ? '<span style="background:#fff3cd;color:#7a5d00;font-size:11px;padding:2px 6px;border-radius:999px;white-space:nowrap;">New</span>' : ""}
@@ -114,8 +98,7 @@ async function run() {
   const topN = Math.max(1, Math.min(data.length, Number(process.env.MONTHLY_TOP_N) || 20));
   const { topList, gainers, losers, summary } = buildReportData(data, daysAgo, topN);
 
-  const rowsHtml = topList.map(renderDesktopRow).join("");
-  const mobileCardsHtml = topList.map(item => renderMobileCard(item, "30d")).join("");
+  const cardsHtml = topList.map(item => renderMobileCard(item, "30d")).join("");
 
   const rowsText = topList.map(item => {
     const marker = item.isNewInTopN ? " [New]" : "";
@@ -139,11 +122,9 @@ async function run() {
       .report-body { padding: 14px !important; }
       .summary-card { min-width: calc(50% - 8px) !important; }
       .mover-card { min-width: 100% !important; }
-      .desktop-table-wrap { display: none !important; max-height: 0 !important; overflow: hidden !important; }
-      .mobile-card { display: block !important; }
     }
   </style>
-  <div class="report-shell" style="max-width:980px;margin:auto;background:white;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,0.08);">
+  <div class="report-shell" style="max-width:760px;margin:auto;background:white;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,0.08);">
     <div style="background:#198754;color:white;padding:18px 20px;text-align:center;font-size:22px;font-weight:bold;">
       Monthly Stock Summary
     </div>
@@ -176,26 +157,8 @@ async function run() {
         ${renderMoverList("Top 3 Monthly Gainers", gainers)}
         ${renderMoverList("Top 3 Monthly Losers", losers)}
       </div>
-      <div class="desktop-table-wrap">
-        <table style="width:100%;border-collapse:collapse;font-size:13px;">
-          <thead>
-            <tr style="background:#f1f3f5;">
-              <th style="padding:10px;border:1px solid #ddd;">Rank</th>
-              <th style="padding:10px;border:1px solid #ddd;">Company</th>
-              <th style="padding:10px;border:1px solid #ddd;">Current MCap</th>
-              <th style="padding:10px;border:1px solid #ddd;">Previous MCap</th>
-              <th style="padding:10px;border:1px solid #ddd;">Abs Change</th>
-              <th style="padding:10px;border:1px solid #ddd;">Change (30d)</th>
-              <th style="padding:10px;border:1px solid #ddd;">Rank Change</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rowsHtml}
-          </tbody>
-        </table>
-      </div>
       <div>
-        ${mobileCardsHtml}
+        ${cardsHtml}
       </div>
       <p style="margin-top:16px;font-size:12px;color:#777;">
         N/A means enough 30-day history is not available yet. Rank change is derived from the historical market-cap snapshot closest to 30 days ago.
