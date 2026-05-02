@@ -2,7 +2,6 @@ const fs = require("fs");
 const axios = require("axios");
 const nodemailer = require("nodemailer");
 
-// Gmail SMTP transporter
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
@@ -14,8 +13,8 @@ const transporter = nodemailer.createTransport({
 async function sendEmail(msg) {
   await transporter.sendMail({
     from: process.env.EMAIL_USER,
-    to: process.env.TO_EMAIL_LIST,   // 👈 single or list (a,b,c)
-    subject: "📊 Stock Market Daily Update",
+    to: process.env.TO_EMAIL_LIST,
+    subject: "📊 Stock Tracker Update",
     text: msg
   });
 }
@@ -37,17 +36,14 @@ async function run() {
   latest.forEach((x, i) => {
 
     const newRank = i + 1;
-    const prev = old.find(z => z.SecurityID == x.SecurityID);
+    const prev = old.find(z => z.SecurityID === x.SecurityID);
 
     if (prev && newRank < prev.rank) {
-
       jumps.push({
         name: x.Nm,
         from: prev.rank,
-        to: newRank,
-        mcap: x.MCap
+        to: newRank
       });
-
     }
 
   });
@@ -55,9 +51,7 @@ async function run() {
   let msg = "";
 
   if (jumps.length > 0) {
-
     jumps.sort((a, b) => (b.from - b.to) - (a.from - a.to));
-
     const top = jumps[0];
 
     msg =
@@ -68,18 +62,12 @@ ${top.from} ➜ ${top.to}
 Jumped ${top.from - top.to} ranks`;
 
   } else {
-
-    msg =
-`📊 Daily Update
-
-Aaj koi jump nahi hai.`;
-
+    msg = `📊 Daily Update\n\nNo major movement today.`;
   }
 
-  // 📧 SEND EMAIL (instead of Twilio SMS)
   await sendEmail(msg);
 
-  // 💾 Save latest data
+  // 💾 update file
   fs.writeFileSync(
     "data.json",
     JSON.stringify(
@@ -93,7 +81,6 @@ Aaj koi jump nahi hai.`;
       2
     )
   );
-
 }
 
 run();
