@@ -2,7 +2,7 @@
   {
     "SecurityID": 4897,
     "rank": 1,
-    "mcap": 1979743,
+    "mcap": 1981367,
     "name": "Reliance Industries Ltd.",
     "history": [
       {
@@ -16,13 +16,17 @@
       {
         "date": "2026-05-04",
         "mcap": 1979743
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 1981367
       }
     ]
   },
   {
     "SecurityID": 5051,
     "rank": 2,
-    "mcap": 1197619,
+    "mcap": 1189382,
     "name": "HDFC Bank Ltd.",
     "history": [
       {
@@ -36,13 +40,17 @@
       {
         "date": "2026-05-04",
         "mcap": 1197619
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 1189382
       }
     ]
   },
   {
     "SecurityID": 6508,
     "rank": 3,
-    "mcap": 1113385,
+    "mcap": 1101409,
     "name": "Bharti Airtel Ltd.",
     "history": [
       {
@@ -56,13 +64,17 @@
       {
         "date": "2026-05-04",
         "mcap": 1113385
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 1101409
       }
     ]
   },
   {
     "SecurityID": 8843,
     "rank": 4,
-    "mcap": 986107,
+    "mcap": 978215,
     "name": "State Bank Of India",
     "history": [
       {
@@ -76,13 +88,17 @@
       {
         "date": "2026-05-04",
         "mcap": 986107
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 978215
       }
     ]
   },
   {
     "SecurityID": 8748,
     "rank": 5,
-    "mcap": 910946,
+    "mcap": 897105,
     "name": "ICICI Bank Ltd.",
     "history": [
       {
@@ -96,13 +112,17 @@
       {
         "date": "2026-05-04",
         "mcap": 910946
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 897105
       }
     ]
   },
   {
     "SecurityID": 6797,
     "rank": 6,
-    "mcap": 879467,
+    "mcap": 878019,
     "name": "Tata Consultancy Services Ltd.",
     "history": [
       {
@@ -116,13 +136,17 @@
       {
         "date": "2026-05-04",
         "mcap": 879467
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 878019
       }
     ]
   },
   {
     "SecurityID": 6114,
     "rank": 7,
-    "mcap": 591590,
+    "mcap": 596727,
     "name": "Bajaj Finance Ltd.",
     "history": [
       {
@@ -136,13 +160,17 @@
       {
         "date": "2026-05-04",
         "mcap": 591590
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 596727
       }
     ]
   },
   {
     "SecurityID": 4964,
     "rank": 8,
-    "mcap": 564037,
+    "mcap": 557992,
     "name": "Larsen & Toubro Ltd.",
     "history": [
       {
@@ -156,13 +184,17 @@
       {
         "date": "2026-05-04",
         "mcap": 564037
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 557992
       }
     ]
   },
   {
     "SecurityID": 5016,
     "rank": 9,
-    "mcap": 542532,
+    "mcap": 547079,
     "name": "Hindustan Unilever Ltd.",
     "history": [
       {
@@ -176,13 +208,17 @@
       {
         "date": "2026-05-04",
         "mcap": 542532
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 547079
       }
     ]
   },
   {
     "SecurityID": 4926,
     "rank": 10,
-    "mcap": 473859,
+    "mcap": 477631,
     "name": "Infosys Ltd.",
     "history": [
       {
@@ -196,13 +232,17 @@
       {
         "date": "2026-05-04",
         "mcap": 473859
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 477631
       }
     ]
   },
   {
     "SecurityID": 8062,
     "rank": 11,
-    "mcap": 438727,
+    "mcap": 443355,
     "name": "Adani Power Ltd.",
     "history": [
       {
@@ -216,13 +256,17 @@
       {
         "date": "2026-05-04",
         "mcap": 438727
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 443355
       }
     ]
   },
   {
     "SecurityID": 5071,
     "rank": 12,
-    "mcap": 437663,
+    "mcap": 436859,
     "name": "Sun Pharmaceutical Industries Ltd.",
     "history": [
       {
@@ -236,13 +280,17 @@
       {
         "date": "2026-05-04",
         "mcap": 437663
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 436859
       }
     ]
   },
   {
     "SecurityID": 7239,
     "rank": 13,
-    "mcap": 427017,
+    "mcap": 422120,
     "name": "Maruti Suzuki India Ltd.",
     "history": [
       {
@@ -256,113 +304,17 @@
       {
         "date": "2026-05-04",
         "mcap": 427017
-      }
-    ]
-  },
-  {
-    "SecurityID": 7794,
-    "rank": 14,
-    "mcap": 401546,
-    "name": "Adani Ports and Special Economic Zone Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 381340
       },
       {
-        "date": "2026-05-03",
-        "mcap": 381340
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 401546
-      }
-    ]
-  },
-  {
-    "SecurityID": 5889,
-    "rank": 15,
-    "mcap": 396363,
-    "name": "Axis Bank Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 394078
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 394078
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 396363
-      }
-    ]
-  },
-  {
-    "SecurityID": 5535,
-    "rank": 16,
-    "mcap": 389666,
-    "name": "ITC Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 394616
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 394616
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 389666
-      }
-    ]
-  },
-  {
-    "SecurityID": 7760,
-    "rank": 17,
-    "mcap": 387867,
-    "name": "NTPC Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 387042
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 387042
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 387867
-      }
-    ]
-  },
-  {
-    "SecurityID": 6050,
-    "rank": 18,
-    "mcap": 387328,
-    "name": "Titan Company Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 389379
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 389379
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 387328
+        "date": "2026-05-05",
+        "mcap": 422120
       }
     ]
   },
   {
     "SecurityID": 5311,
-    "rank": 19,
-    "mcap": 386209,
+    "rank": 14,
+    "mcap": 399378,
     "name": "Mahindra & Mahindra Ltd.",
     "history": [
       {
@@ -376,13 +328,137 @@
       {
         "date": "2026-05-04",
         "mcap": 386209
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 399378
+      }
+    ]
+  },
+  {
+    "SecurityID": 7794,
+    "rank": 15,
+    "mcap": 397663,
+    "name": "Adani Ports and Special Economic Zone Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 381340
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 381340
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 401546
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 397663
+      }
+    ]
+  },
+  {
+    "SecurityID": 5889,
+    "rank": 16,
+    "mcap": 391607,
+    "name": "Axis Bank Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 394078
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 394078
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 396363
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 391607
+      }
+    ]
+  },
+  {
+    "SecurityID": 5535,
+    "rank": 17,
+    "mcap": 390230,
+    "name": "ITC Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 394616
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 394616
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 389666
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 390230
+      }
+    ]
+  },
+  {
+    "SecurityID": 6050,
+    "rank": 18,
+    "mcap": 388136,
+    "name": "Titan Company Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 389379
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 389379
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 387328
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 388136
+      }
+    ]
+  },
+  {
+    "SecurityID": 7760,
+    "rank": 19,
+    "mcap": 386606,
+    "name": "NTPC Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 387042
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 387042
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 387867
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 386606
       }
     ]
   },
   {
     "SecurityID": 5886,
     "rank": 20,
-    "mcap": 369859,
+    "mcap": 369312,
     "name": "Kotak Mahindra Bank Ltd.",
     "history": [
       {
@@ -396,13 +472,17 @@
       {
         "date": "2026-05-04",
         "mcap": 369859
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 369312
       }
     ]
   },
   {
     "SecurityID": 5774,
     "rank": 21,
-    "mcap": 368351,
+    "mcap": 364576,
     "name": "Oil & Natural Gas Corporation Ltd.",
     "history": [
       {
@@ -416,13 +496,17 @@
       {
         "date": "2026-05-04",
         "mcap": 368351
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 364576
       }
     ]
   },
   {
     "SecurityID": 6850,
     "rank": 22,
-    "mcap": 346382,
+    "mcap": 352567,
     "name": "Ultratech Cement Ltd.",
     "history": [
       {
@@ -436,13 +520,17 @@
       {
         "date": "2026-05-04",
         "mcap": 346382
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 352567
       }
     ]
   },
   {
     "SecurityID": 8219,
     "rank": 23,
-    "mcap": 325762,
+    "mcap": 325775,
     "name": "HCL Technologies Ltd.",
     "history": [
       {
@@ -456,13 +544,17 @@
       {
         "date": "2026-05-04",
         "mcap": 325762
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 325775
       }
     ]
   },
   {
     "SecurityID": 6614,
     "rank": 24,
-    "mcap": 323282,
+    "mcap": 320679,
     "name": "Adani Enterprises Ltd.",
     "history": [
       {
@@ -476,13 +568,17 @@
       {
         "date": "2026-05-04",
         "mcap": 323282
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 320679
       }
     ]
   },
   {
     "SecurityID": 5981,
     "rank": 25,
-    "mcap": 316952,
+    "mcap": 317025,
     "name": "Bharat Electronics Ltd.",
     "history": [
       {
@@ -496,33 +592,17 @@
       {
         "date": "2026-05-04",
         "mcap": 316952
-      }
-    ]
-  },
-  {
-    "SecurityID": 4968,
-    "rank": 26,
-    "mcap": 309582,
-    "name": "JSW Steel Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 309179
       },
       {
-        "date": "2026-05-03",
-        "mcap": 309179
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 309582
+        "date": "2026-05-05",
+        "mcap": 317025
       }
     ]
   },
   {
     "SecurityID": 87891,
-    "rank": 27,
-    "mcap": 304834,
+    "rank": 26,
+    "mcap": 308362,
     "name": "Hindustan Aeronautics Ltd.",
     "history": [
       {
@@ -536,13 +616,41 @@
       {
         "date": "2026-05-04",
         "mcap": 304834
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 308362
+      }
+    ]
+  },
+  {
+    "SecurityID": 4968,
+    "rank": 27,
+    "mcap": 306305,
+    "name": "JSW Steel Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 309179
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 309179
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 309582
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 306305
       }
     ]
   },
   {
     "SecurityID": 7825,
     "rank": 28,
-    "mcap": 296922,
+    "mcap": 296968,
     "name": "Power Grid Corporation Of India Ltd.",
     "history": [
       {
@@ -556,13 +664,17 @@
       {
         "date": "2026-05-04",
         "mcap": 296922
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 296968
       }
     ]
   },
   {
     "SecurityID": 7007,
     "rank": 29,
-    "mcap": 295780,
+    "mcap": 291158,
     "name": "Coal India Ltd.",
     "history": [
       {
@@ -576,33 +688,17 @@
       {
         "date": "2026-05-04",
         "mcap": 295780
-      }
-    ]
-  },
-  {
-    "SecurityID": 82976,
-    "rank": 30,
-    "mcap": 285266,
-    "name": "Avenue Supermarts Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 299370
       },
       {
-        "date": "2026-05-03",
-        "mcap": 299370
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 285266
+        "date": "2026-05-05",
+        "mcap": 291158
       }
     ]
   },
   {
     "SecurityID": 8443,
-    "rank": 31,
-    "mcap": 283545,
+    "rank": 30,
+    "mcap": 287275,
     "name": "Bajaj Finserv Ltd.",
     "history": [
       {
@@ -616,33 +712,17 @@
       {
         "date": "2026-05-04",
         "mcap": 283545
-      }
-    ]
-  },
-  {
-    "SecurityID": 8442,
-    "rank": 32,
-    "mcap": 283158,
-    "name": "Bajaj Auto Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 279435
       },
       {
-        "date": "2026-05-03",
-        "mcap": 279435
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 283158
+        "date": "2026-05-05",
+        "mcap": 287275
       }
     ]
   },
   {
     "SecurityID": 5891,
-    "rank": 33,
-    "mcap": 280946,
+    "rank": 31,
+    "mcap": 284725,
     "name": "Nestle India Ltd.",
     "history": [
       {
@@ -656,13 +736,65 @@
       {
         "date": "2026-05-04",
         "mcap": 280946
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 284725
+      }
+    ]
+  },
+  {
+    "SecurityID": 82976,
+    "rank": 32,
+    "mcap": 284281,
+    "name": "Avenue Supermarts Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 299370
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 299370
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 285266
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 284281
+      }
+    ]
+  },
+  {
+    "SecurityID": 8442,
+    "rank": 33,
+    "mcap": 280712,
+    "name": "Bajaj Auto Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 279435
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 279435
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 283158
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 280712
       }
     ]
   },
   {
     "SecurityID": 5226,
     "rank": 34,
-    "mcap": 264899,
+    "mcap": 263775,
     "name": "Tata Steel Ltd.",
     "history": [
       {
@@ -676,13 +808,17 @@
       {
         "date": "2026-05-04",
         "mcap": 264899
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 263775
       }
     ]
   },
   {
     "SecurityID": 5997,
     "rank": 35,
-    "mcap": 255822,
+    "mcap": 258167,
     "name": "Hindustan Zinc Ltd.",
     "history": [
       {
@@ -696,13 +832,17 @@
       {
         "date": "2026-05-04",
         "mcap": 255822
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 258167
       }
     ]
   },
   {
     "SecurityID": 98676,
     "rank": 36,
-    "mcap": 243141,
+    "mcap": 239811,
     "name": "Eternal Ltd.",
     "history": [
       {
@@ -716,33 +856,17 @@
       {
         "date": "2026-05-04",
         "mcap": 243141
-      }
-    ]
-  },
-  {
-    "SecurityID": 4978,
-    "rank": 37,
-    "mcap": 234735,
-    "name": "Asian Paints Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 234485
       },
       {
-        "date": "2026-05-03",
-        "mcap": 234485
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 234735
+        "date": "2026-05-05",
+        "mcap": 239811
       }
     ]
   },
   {
     "SecurityID": 5043,
-    "rank": 38,
-    "mcap": 234296,
+    "rank": 37,
+    "mcap": 237004,
     "name": "Hindalco Industries Ltd.",
     "history": [
       {
@@ -756,13 +880,41 @@
       {
         "date": "2026-05-04",
         "mcap": 234296
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 237004
+      }
+    ]
+  },
+  {
+    "SecurityID": 4978,
+    "rank": 38,
+    "mcap": 233306,
+    "name": "Asian Paints Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 234485
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 234485
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 234735
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 233306
       }
     ]
   },
   {
     "SecurityID": 7719,
     "rank": 39,
-    "mcap": 225858,
+    "mcap": 226905,
     "name": "Shriram Finance Ltd.",
     "history": [
       {
@@ -776,13 +928,17 @@
       {
         "date": "2026-05-04",
         "mcap": 225858
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 226905
       }
     ]
   },
   {
     "SecurityID": 88646,
     "rank": 40,
-    "mcap": 212667,
+    "mcap": 219198,
     "name": "Adani Green Energy Ltd.",
     "history": [
       {
@@ -796,13 +952,17 @@
       {
         "date": "2026-05-04",
         "mcap": 212667
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 219198
       }
     ]
   },
   {
     "SecurityID": 5199,
     "rank": 41,
-    "mcap": 210617,
+    "mcap": 209621,
     "name": "Wipro Ltd.",
     "history": [
       {
@@ -816,33 +976,17 @@
       {
         "date": "2026-05-04",
         "mcap": 210617
-      }
-    ]
-  },
-  {
-    "SecurityID": 5156,
-    "rank": 42,
-    "mcap": 201060,
-    "name": "Eicher Motors Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 195048
       },
       {
-        "date": "2026-05-03",
-        "mcap": 195048
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 201060
+        "date": "2026-05-05",
+        "mcap": 209621
       }
     ]
   },
   {
     "SecurityID": 5903,
-    "rank": 43,
-    "mcap": 200945,
+    "rank": 42,
+    "mcap": 200733,
     "name": "Indian Oil Corporation Ltd.",
     "history": [
       {
@@ -856,13 +1000,41 @@
       {
         "date": "2026-05-04",
         "mcap": 200945
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 200733
+      }
+    ]
+  },
+  {
+    "SecurityID": 5156,
+    "rank": 43,
+    "mcap": 200142,
+    "name": "Eicher Motors Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 195048
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 195048
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 201060
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 200142
       }
     ]
   },
   {
     "SecurityID": 5078,
     "rank": 44,
-    "mcap": 194381,
+    "mcap": 195313,
     "name": "Grasim Industries Ltd.",
     "history": [
       {
@@ -876,13 +1048,17 @@
       {
         "date": "2026-05-04",
         "mcap": 194381
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 195313
       }
     ]
   },
   {
     "SecurityID": 86648,
     "rank": 45,
-    "mcap": 182437,
+    "mcap": 182758,
     "name": "SBI Life Insurance Company Ltd.",
     "history": [
       {
@@ -896,13 +1072,17 @@
       {
         "date": "2026-05-04",
         "mcap": 182437
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 182758
       }
     ]
   },
   {
     "SecurityID": 6372,
     "rank": 46,
-    "mcap": 175692,
+    "mcap": 176618,
     "name": "Divi's Laboratories Ltd.",
     "history": [
       {
@@ -916,13 +1096,17 @@
       {
         "date": "2026-05-04",
         "mcap": 175692
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 176618
       }
     ]
   },
   {
     "SecurityID": 83193,
     "rank": 47,
-    "mcap": 171381,
+    "mcap": 173072,
     "name": "Varun Beverages Ltd.",
     "history": [
       {
@@ -936,13 +1120,17 @@
       {
         "date": "2026-05-04",
         "mcap": 171381
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 173072
       }
     ]
   },
   {
     "SecurityID": 15713,
     "rank": 48,
-    "mcap": 167933,
+    "mcap": 169327,
     "name": "Adani Energy Solutions Ltd.",
     "history": [
       {
@@ -956,33 +1144,17 @@
       {
         "date": "2026-05-04",
         "mcap": 167933
-      }
-    ]
-  },
-  {
-    "SecurityID": 110949,
-    "rank": 49,
-    "mcap": 166894,
-    "name": "JIO Financial Services Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 162701
       },
       {
-        "date": "2026-05-03",
-        "mcap": 162701
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 166894
+        "date": "2026-05-05",
+        "mcap": 169327
       }
     ]
   },
   {
     "SecurityID": 6902,
-    "rank": 50,
-    "mcap": 166126,
+    "rank": 49,
+    "mcap": 167943,
     "name": "TVS Motor Company Ltd.",
     "history": [
       {
@@ -996,13 +1168,41 @@
       {
         "date": "2026-05-04",
         "mcap": 166126
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 167943
+      }
+    ]
+  },
+  {
+    "SecurityID": 110949,
+    "rank": 50,
+    "mcap": 163989,
+    "name": "JIO Financial Services Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 162701
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 162701
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 166894
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 163989
       }
     ]
   },
   {
     "SecurityID": 15829,
     "rank": 51,
-    "mcap": 164545,
+    "mcap": 163925,
     "name": "Interglobe Aviation Ltd.",
     "history": [
       {
@@ -1016,13 +1216,17 @@
       {
         "date": "2026-05-04",
         "mcap": 164545
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 163925
       }
     ]
   },
   {
     "SecurityID": 113233,
     "rank": 52,
-    "mcap": 161667,
+    "mcap": 162206,
     "name": "ICICI Prudential Asset Management Company Ltd.",
     "history": [
       {
@@ -1036,13 +1240,17 @@
       {
         "date": "2026-05-04",
         "mcap": 161667
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 162206
       }
     ]
   },
   {
     "SecurityID": 5382,
     "rank": 53,
-    "mcap": 153539,
+    "mcap": 155314,
     "name": "ABB India Ltd.",
     "history": [
       {
@@ -1056,53 +1264,17 @@
       {
         "date": "2026-05-04",
         "mcap": 153539
-      }
-    ]
-  },
-  {
-    "SecurityID": 113617,
-    "rank": 54,
-    "mcap": 152062,
-    "name": "Tata Motors Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 150957
       },
       {
-        "date": "2026-05-03",
-        "mcap": 150957
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 152062
-      }
-    ]
-  },
-  {
-    "SecurityID": 82667,
-    "rank": 55,
-    "mcap": 151378,
-    "name": "BSE Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 148490
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 148490
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 151378
+        "date": "2026-05-05",
+        "mcap": 155314
       }
     ]
   },
   {
     "SecurityID": 94646,
-    "rank": 56,
-    "mcap": 150413,
+    "rank": 54,
+    "mcap": 152608,
     "name": "Hitachi Energy India Ltd.",
     "history": [
       {
@@ -1116,53 +1288,41 @@
       {
         "date": "2026-05-04",
         "mcap": 150413
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 152608
       }
     ]
   },
   {
-    "SecurityID": 6012,
-    "rank": 57,
-    "mcap": 150289,
-    "name": "DLF Ltd.",
+    "SecurityID": 82667,
+    "rank": 55,
+    "mcap": 151986,
+    "name": "BSE Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 145338
+        "mcap": 148490
       },
       {
         "date": "2026-05-03",
-        "mcap": 145338
+        "mcap": 148490
       },
       {
         "date": "2026-05-04",
-        "mcap": 150289
-      }
-    ]
-  },
-  {
-    "SecurityID": 112114,
-    "rank": 58,
-    "mcap": 149776,
-    "name": "Hyundai Motor India Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 147785
+        "mcap": 151378
       },
       {
-        "date": "2026-05-03",
-        "mcap": 147785
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 149776
+        "date": "2026-05-05",
+        "mcap": 151986
       }
     ]
   },
   {
     "SecurityID": 5456,
-    "rank": 59,
-    "mcap": 147845,
+    "rank": 56,
+    "mcap": 150765,
     "name": "Power Finance Corporation Ltd.",
     "history": [
       {
@@ -1176,13 +1336,89 @@
       {
         "date": "2026-05-04",
         "mcap": 147845
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 150765
+      }
+    ]
+  },
+  {
+    "SecurityID": 113617,
+    "rank": 57,
+    "mcap": 149742,
+    "name": "Tata Motors Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 150957
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 150957
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 152062
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 149742
+      }
+    ]
+  },
+  {
+    "SecurityID": 112114,
+    "rank": 58,
+    "mcap": 148073,
+    "name": "Hyundai Motor India Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 147785
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 147785
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 149776
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 148073
+      }
+    ]
+  },
+  {
+    "SecurityID": 6012,
+    "rank": 59,
+    "mcap": 147764,
+    "name": "DLF Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 145338
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 145338
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 150289
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 147764
       }
     ]
   },
   {
     "SecurityID": 8185,
     "rank": 60,
-    "mcap": 147774,
+    "mcap": 146855,
     "name": "Trent Ltd.",
     "history": [
       {
@@ -1196,13 +1432,17 @@
       {
         "date": "2026-05-04",
         "mcap": 147774
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 146855
       }
     ]
   },
   {
     "SecurityID": 6125,
     "rank": 61,
-    "mcap": 146636,
+    "mcap": 145797,
     "name": "Cummins India Ltd.",
     "history": [
       {
@@ -1216,33 +1456,17 @@
       {
         "date": "2026-05-04",
         "mcap": 146636
-      }
-    ]
-  },
-  {
-    "SecurityID": 7531,
-    "rank": 62,
-    "mcap": 144132,
-    "name": "Tech Mahindra Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 144450
       },
       {
-        "date": "2026-05-03",
-        "mcap": 144450
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 144132
+        "date": "2026-05-05",
+        "mcap": 145797
       }
     ]
   },
   {
     "SecurityID": 7581,
-    "rank": 63,
-    "mcap": 143909,
+    "rank": 62,
+    "mcap": 144718,
     "name": "Torrent Pharmaceuticals Ltd.",
     "history": [
       {
@@ -1256,53 +1480,17 @@
       {
         "date": "2026-05-04",
         "mcap": 143909
-      }
-    ]
-  },
-  {
-    "SecurityID": 5915,
-    "rank": 64,
-    "mcap": 141026,
-    "name": "Tata Power Company Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 142049
       },
       {
-        "date": "2026-05-03",
-        "mcap": 142049
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 141026
-      }
-    ]
-  },
-  {
-    "SecurityID": 6578,
-    "rank": 65,
-    "mcap": 140032,
-    "name": "Muthoot Finance Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 137459
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 137459
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 140032
+        "date": "2026-05-05",
+        "mcap": 144718
       }
     ]
   },
   {
     "SecurityID": 6306,
-    "rank": 66,
-    "mcap": 139827,
+    "rank": 63,
+    "mcap": 143345,
     "name": "Solar Industries India Ltd.",
     "history": [
       {
@@ -1316,13 +1504,65 @@
       {
         "date": "2026-05-04",
         "mcap": 139827
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 143345
+      }
+    ]
+  },
+  {
+    "SecurityID": 7531,
+    "rank": 64,
+    "mcap": 142265,
+    "name": "Tech Mahindra Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 144450
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 144450
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 144132
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 142265
+      }
+    ]
+  },
+  {
+    "SecurityID": 5915,
+    "rank": 65,
+    "mcap": 141490,
+    "name": "Tata Power Company Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 142049
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 142049
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 141026
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 141490
       }
     ]
   },
   {
     "SecurityID": 5399,
-    "rank": 67,
-    "mcap": 139636,
+    "rank": 66,
+    "mcap": 141196,
     "name": "Cholamandalam Investment and Finance Company Ltd.",
     "history": [
       {
@@ -1336,13 +1576,17 @@
       {
         "date": "2026-05-04",
         "mcap": 139636
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 141196
       }
     ]
   },
   {
     "SecurityID": 5788,
-    "rank": 68,
-    "mcap": 139476,
+    "rank": 67,
+    "mcap": 140536,
     "name": "Britannia Industries Ltd.",
     "history": [
       {
@@ -1356,53 +1600,17 @@
       {
         "date": "2026-05-04",
         "mcap": 139476
-      }
-    ]
-  },
-  {
-    "SecurityID": 113294,
-    "rank": 69,
-    "mcap": 139253,
-    "name": "Tata Capital Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 141524
       },
       {
-        "date": "2026-05-03",
-        "mcap": 141524
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 139253
-      }
-    ]
-  },
-  {
-    "SecurityID": 6208,
-    "rank": 70,
-    "mcap": 138870,
-    "name": "Pidilite Industries Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 140000
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 140000
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 138870
+        "date": "2026-05-05",
+        "mcap": 140536
       }
     ]
   },
   {
     "SecurityID": 113399,
-    "rank": 71,
-    "mcap": 138082,
+    "rank": 68,
+    "mcap": 139023,
     "name": "Billionbrains Garage Ventures Ltd.",
     "history": [
       {
@@ -1416,53 +1624,41 @@
       {
         "date": "2026-05-04",
         "mcap": 138082
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 139023
       }
     ]
   },
   {
-    "SecurityID": 5008,
-    "rank": 72,
-    "mcap": 137093,
-    "name": "Bank Of Baroda",
+    "SecurityID": 6208,
+    "rank": 69,
+    "mcap": 138769,
+    "name": "Pidilite Industries Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 136265
+        "mcap": 140000
       },
       {
         "date": "2026-05-03",
-        "mcap": 136265
+        "mcap": 140000
       },
       {
         "date": "2026-05-04",
-        "mcap": 137093
-      }
-    ]
-  },
-  {
-    "SecurityID": 4902,
-    "rank": 73,
-    "mcap": 136414,
-    "name": "Siemens Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 135960
+        "mcap": 138870
       },
       {
-        "date": "2026-05-03",
-        "mcap": 135960
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 136414
+        "date": "2026-05-05",
+        "mcap": 138769
       }
     ]
   },
   {
     "SecurityID": 71025,
-    "rank": 74,
-    "mcap": 136370,
+    "rank": 70,
+    "mcap": 138265,
     "name": "Indian Railway Finance Corporation Ltd.",
     "history": [
       {
@@ -1476,13 +1672,113 @@
       {
         "date": "2026-05-04",
         "mcap": 136370
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 138265
+      }
+    ]
+  },
+  {
+    "SecurityID": 6578,
+    "rank": 71,
+    "mcap": 138242,
+    "name": "Muthoot Finance Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 137459
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 137459
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 140032
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 138242
+      }
+    ]
+  },
+  {
+    "SecurityID": 113294,
+    "rank": 72,
+    "mcap": 137873,
+    "name": "Tata Capital Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 141524
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 141524
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 139253
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 137873
+      }
+    ]
+  },
+  {
+    "SecurityID": 4902,
+    "rank": 73,
+    "mcap": 136962,
+    "name": "Siemens Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 135960
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 135960
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 136414
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 136962
+      }
+    ]
+  },
+  {
+    "SecurityID": 5008,
+    "rank": 74,
+    "mcap": 136162,
+    "name": "Bank Of Baroda",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 136265
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 136265
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 137093
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 136162
       }
     ]
   },
   {
     "SecurityID": 5963,
     "rank": 75,
-    "mcap": 131256,
+    "mcap": 130543,
     "name": "Bharat Heavy Electricals Ltd.",
     "history": [
       {
@@ -1496,13 +1792,41 @@
       {
         "date": "2026-05-04",
         "mcap": 131256
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 130543
+      }
+    ]
+  },
+  {
+    "SecurityID": 5159,
+    "rank": 76,
+    "mcap": 130326,
+    "name": "CG Power and Industrial Solutions Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 128042
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 128042
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 126294
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 130326
       }
     ]
   },
   {
     "SecurityID": 5012,
-    "rank": 76,
-    "mcap": 130936,
+    "rank": 77,
+    "mcap": 129656,
     "name": "Bharat Petroleum Corporation Ltd.",
     "history": [
       {
@@ -1516,13 +1840,17 @@
       {
         "date": "2026-05-04",
         "mcap": 130936
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 129656
       }
     ]
   },
   {
     "SecurityID": 7813,
-    "rank": 77,
-    "mcap": 128618,
+    "rank": 78,
+    "mcap": 128536,
     "name": "Jindal Steel Ltd.",
     "history": [
       {
@@ -1536,13 +1864,17 @@
       {
         "date": "2026-05-04",
         "mcap": 128618
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 128536
       }
     ]
   },
   {
     "SecurityID": 86912,
-    "rank": 78,
-    "mcap": 126945,
+    "rank": 79,
+    "mcap": 128272,
     "name": "HDFC Life Insurance Company Ltd.",
     "history": [
       {
@@ -1556,12 +1888,40 @@
       {
         "date": "2026-05-04",
         "mcap": 126945
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 128272
+      }
+    ]
+  },
+  {
+    "SecurityID": 17058,
+    "rank": 80,
+    "mcap": 127595,
+    "name": "LTM Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 126663
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 126663
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 124676
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 127595
       }
     ]
   },
   {
     "SecurityID": 7906,
-    "rank": 79,
+    "rank": 81,
     "mcap": 126864,
     "name": "Samvardhana Motherson International Ltd.",
     "history": [
@@ -1576,53 +1936,17 @@
       {
         "date": "2026-05-04",
         "mcap": 126864
-      }
-    ]
-  },
-  {
-    "SecurityID": 5159,
-    "rank": 80,
-    "mcap": 126294,
-    "name": "CG Power and Industrial Solutions Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 128042
       },
       {
-        "date": "2026-05-03",
-        "mcap": 128042
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 126294
-      }
-    ]
-  },
-  {
-    "SecurityID": 5539,
-    "rank": 81,
-    "mcap": 126289,
-    "name": "Tata Motors Passenger Vehicles Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 125792
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 125792
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 126289
+        "date": "2026-05-05",
+        "mcap": 126864
       }
     ]
   },
   {
     "SecurityID": 90516,
     "rank": 82,
-    "mcap": 125627,
+    "mcap": 125553,
     "name": "Polycab India Ltd.",
     "history": [
       {
@@ -1636,33 +1960,41 @@
       {
         "date": "2026-05-04",
         "mcap": 125627
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 125553
       }
     ]
   },
   {
-    "SecurityID": 5561,
+    "SecurityID": 5539,
     "rank": 83,
-    "mcap": 125043,
-    "name": "Punjab National Bank",
+    "mcap": 125276,
+    "name": "Tata Motors Passenger Vehicles Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 125675
+        "mcap": 125792
       },
       {
         "date": "2026-05-03",
-        "mcap": 125675
+        "mcap": 125792
       },
       {
         "date": "2026-05-04",
-        "mcap": 125043
+        "mcap": 126289
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 125276
       }
     ]
   },
   {
     "SecurityID": 7612,
     "rank": 84,
-    "mcap": 124962,
+    "mcap": 125038,
     "name": "Union Bank Of India",
     "history": [
       {
@@ -1676,33 +2008,41 @@
       {
         "date": "2026-05-04",
         "mcap": 124962
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 125038
       }
     ]
   },
   {
-    "SecurityID": 17058,
+    "SecurityID": 5561,
     "rank": 85,
-    "mcap": 124676,
-    "name": "LTM Ltd.",
+    "mcap": 124009,
+    "name": "Punjab National Bank",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 126663
+        "mcap": 125675
       },
       {
         "date": "2026-05-03",
-        "mcap": 126663
+        "mcap": 125675
       },
       {
         "date": "2026-05-04",
-        "mcap": 124676
+        "mcap": 125043
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 124009
       }
     ]
   },
   {
     "SecurityID": 6833,
     "rank": 86,
-    "mcap": 122363,
+    "mcap": 121819,
     "name": "Canara Bank",
     "history": [
       {
@@ -1716,33 +2056,17 @@
       {
         "date": "2026-05-04",
         "mcap": 122363
-      }
-    ]
-  },
-  {
-    "SecurityID": 113151,
-    "rank": 87,
-    "mcap": 118244,
-    "name": "Siemens Energy India Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 116889
       },
       {
-        "date": "2026-05-03",
-        "mcap": 116889
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 118244
+        "date": "2026-05-05",
+        "mcap": 121819
       }
     ]
   },
   {
     "SecurityID": 88033,
-    "rank": 88,
-    "mcap": 118019,
+    "rank": 87,
+    "mcap": 120245,
     "name": "HDFC Asset Management Company Ltd.",
     "history": [
       {
@@ -1756,33 +2080,17 @@
       {
         "date": "2026-05-04",
         "mcap": 118019
-      }
-    ]
-  },
-  {
-    "SecurityID": 5389,
-    "rank": 89,
-    "mcap": 115531,
-    "name": "Bajaj Holdings & Investment Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 114278
       },
       {
-        "date": "2026-05-03",
-        "mcap": 114278
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 115531
+        "date": "2026-05-05",
+        "mcap": 120245
       }
     ]
   },
   {
     "SecurityID": 5741,
-    "rank": 90,
-    "mcap": 115278,
+    "rank": 88,
+    "mcap": 118837,
     "name": "Vedanta Ltd.",
     "history": [
       {
@@ -1796,13 +2104,41 @@
       {
         "date": "2026-05-04",
         "mcap": 115278
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 118837
+      }
+    ]
+  },
+  {
+    "SecurityID": 113151,
+    "rank": 89,
+    "mcap": 117593,
+    "name": "Siemens Energy India Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 116889
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 116889
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 118244
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 117593
       }
     ]
   },
   {
     "SecurityID": 5716,
-    "rank": 91,
-    "mcap": 115202,
+    "rank": 90,
+    "mcap": 117291,
     "name": "GE Vernova T&D India Ltd.",
     "history": [
       {
@@ -1816,33 +2152,17 @@
       {
         "date": "2026-05-04",
         "mcap": 115202
-      }
-    ]
-  },
-  {
-    "SecurityID": 5684,
-    "rank": 92,
-    "mcap": 114794,
-    "name": "Tata Consumer Products Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 113250
       },
       {
-        "date": "2026-05-03",
-        "mcap": 113250
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 114794
+        "date": "2026-05-05",
+        "mcap": 117291
       }
     ]
   },
   {
     "SecurityID": 7532,
-    "rank": 93,
-    "mcap": 114085,
+    "rank": 91,
+    "mcap": 117010,
     "name": "Vodafone Idea Ltd.",
     "history": [
       {
@@ -1856,13 +2176,41 @@
       {
         "date": "2026-05-04",
         "mcap": 114085
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 117010
+      }
+    ]
+  },
+  {
+    "SecurityID": 5389,
+    "rank": 92,
+    "mcap": 116484,
+    "name": "Bajaj Holdings & Investment Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 114278
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 114278
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 115531
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 116484
       }
     ]
   },
   {
     "SecurityID": 7159,
-    "rank": 94,
-    "mcap": 111791,
+    "rank": 93,
+    "mcap": 114276,
     "name": "Indian Bank",
     "history": [
       {
@@ -1876,33 +2224,41 @@
       {
         "date": "2026-05-04",
         "mcap": 111791
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 114276
       }
     ]
   },
   {
-    "SecurityID": 6672,
-    "rank": 95,
-    "mcap": 111261,
-    "name": "Apollo Hospitals Enterprise Ltd.",
+    "SecurityID": 5684,
+    "rank": 94,
+    "mcap": 114136,
+    "name": "Tata Consumer Products Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 109840
+        "mcap": 113250
       },
       {
         "date": "2026-05-03",
-        "mcap": 109840
+        "mcap": 113250
       },
       {
         "date": "2026-05-04",
-        "mcap": 111261
+        "mcap": 114794
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 114136
       }
     ]
   },
   {
     "SecurityID": 5320,
-    "rank": 96,
-    "mcap": 109866,
+    "rank": 95,
+    "mcap": 112797,
     "name": "Godrej Consumer Products Ltd.",
     "history": [
       {
@@ -1916,33 +2272,41 @@
       {
         "date": "2026-05-04",
         "mcap": 109866
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 112797
       }
     ]
   },
   {
-    "SecurityID": 5431,
-    "rank": 97,
-    "mcap": 108160,
-    "name": "GAIL (India) Ltd.",
+    "SecurityID": 6672,
+    "rank": 96,
+    "mcap": 111738,
+    "name": "Apollo Hospitals Enterprise Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 107437
+        "mcap": 109840
       },
       {
         "date": "2026-05-03",
-        "mcap": 107437
+        "mcap": 109840
       },
       {
         "date": "2026-05-04",
-        "mcap": 108160
+        "mcap": 111261
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 111738
       }
     ]
   },
   {
     "SecurityID": 5128,
-    "rank": 98,
-    "mcap": 107827,
+    "rank": 97,
+    "mcap": 107722,
     "name": "Cipla Ltd.",
     "history": [
       {
@@ -1956,33 +2320,41 @@
       {
         "date": "2026-05-04",
         "mcap": 107827
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 107722
       }
     ]
   },
   {
-    "SecurityID": 5257,
-    "rank": 99,
-    "mcap": 107500,
-    "name": "Dr. Reddy's Laboratories Ltd.",
+    "SecurityID": 5431,
+    "rank": 98,
+    "mcap": 107667,
+    "name": "GAIL (India) Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 110421
+        "mcap": 107437
       },
       {
         "date": "2026-05-03",
-        "mcap": 110421
+        "mcap": 107437
       },
       {
         "date": "2026-05-04",
-        "mcap": 107500
+        "mcap": 108160
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 107667
       }
     ]
   },
   {
     "SecurityID": 6247,
-    "rank": 100,
-    "mcap": 107489,
+    "rank": 99,
+    "mcap": 107144,
     "name": "Lupin Ltd.",
     "history": [
       {
@@ -1996,73 +2368,17 @@
       {
         "date": "2026-05-04",
         "mcap": 107489
-      }
-    ]
-  },
-  {
-    "SecurityID": 112656,
-    "rank": 101,
-    "mcap": 107219,
-    "name": "LG Electronics India Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 107918
       },
       {
-        "date": "2026-05-03",
-        "mcap": 107918
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 107219
-      }
-    ]
-  },
-  {
-    "SecurityID": 6232,
-    "rank": 102,
-    "mcap": 105658,
-    "name": "Bosch Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 106203
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 106203
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 105658
-      }
-    ]
-  },
-  {
-    "SecurityID": 5403,
-    "rank": 103,
-    "mcap": 105579,
-    "name": "Indus Towers Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 108204
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 108204
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 105579
+        "date": "2026-05-05",
+        "mcap": 107144
       }
     ]
   },
   {
     "SecurityID": 88309,
-    "rank": 104,
-    "mcap": 105290,
+    "rank": 100,
+    "mcap": 106303,
     "name": "Mazagon Dock Shipbuilders Ltd.",
     "history": [
       {
@@ -2076,53 +2392,113 @@
       {
         "date": "2026-05-04",
         "mcap": 105290
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 106303
       }
     ]
   },
   {
-    "SecurityID": 7908,
-    "rank": 105,
-    "mcap": 104354,
-    "name": "GMR Airports Ltd.",
+    "SecurityID": 5403,
+    "rank": 101,
+    "mcap": 106226,
+    "name": "Indus Towers Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 101799
+        "mcap": 108204
       },
       {
         "date": "2026-05-03",
-        "mcap": 101799
+        "mcap": 108204
       },
       {
         "date": "2026-05-04",
-        "mcap": 104354
+        "mcap": 105579
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 106226
       }
     ]
   },
   {
-    "SecurityID": 5218,
-    "rank": 106,
-    "mcap": 103944,
-    "name": "Ambuja Cements Ltd.",
+    "SecurityID": 5257,
+    "rank": 102,
+    "mcap": 106081,
+    "name": "Dr. Reddy's Laboratories Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 103781
+        "mcap": 110421
       },
       {
         "date": "2026-05-03",
-        "mcap": 103781
+        "mcap": 110421
       },
       {
         "date": "2026-05-04",
-        "mcap": 103944
+        "mcap": 107500
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 106081
+      }
+    ]
+  },
+  {
+    "SecurityID": 6232,
+    "rank": 103,
+    "mcap": 105836,
+    "name": "Bosch Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 106203
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 106203
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 105658
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 105836
+      }
+    ]
+  },
+  {
+    "SecurityID": 112656,
+    "rank": 104,
+    "mcap": 105624,
+    "name": "LG Electronics India Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 107918
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 107918
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 107219
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 105624
       }
     ]
   },
   {
     "SecurityID": 5699,
-    "rank": 107,
-    "mcap": 101833,
+    "rank": 105,
+    "mcap": 104774,
     "name": "Marico Ltd.",
     "history": [
       {
@@ -2136,13 +2512,41 @@
       {
         "date": "2026-05-04",
         "mcap": 101833
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 104774
+      }
+    ]
+  },
+  {
+    "SecurityID": 7908,
+    "rank": 106,
+    "mcap": 102390,
+    "name": "GMR Airports Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 101799
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 101799
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 104354
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 102390
       }
     ]
   },
   {
     "SecurityID": 5551,
-    "rank": 108,
-    "mcap": 101383,
+    "rank": 107,
+    "mcap": 102306,
     "name": "Hero MotoCorp Ltd.",
     "history": [
       {
@@ -2156,13 +2560,41 @@
       {
         "date": "2026-05-04",
         "mcap": 101383
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 102306
+      }
+    ]
+  },
+  {
+    "SecurityID": 5218,
+    "rank": 108,
+    "mcap": 101142,
+    "name": "Ambuja Cements Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 103781
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 103781
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 103944
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 101142
       }
     ]
   },
   {
     "SecurityID": 5402,
     "rank": 109,
-    "mcap": 98874,
+    "mcap": 98742,
     "name": "JSW Energy Ltd.",
     "history": [
       {
@@ -2176,13 +2608,17 @@
       {
         "date": "2026-05-04",
         "mcap": 98874
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 98742
       }
     ]
   },
   {
     "SecurityID": 96064,
     "rank": 110,
-    "mcap": 98439,
+    "mcap": 97300,
     "name": "Max Healthcare Institute Ltd.",
     "history": [
       {
@@ -2196,13 +2632,17 @@
       {
         "date": "2026-05-04",
         "mcap": 98439
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 97300
       }
     ]
   },
   {
     "SecurityID": 8200,
     "rank": 111,
-    "mcap": 96174,
+    "mcap": 95825,
     "name": "United Spirits Ltd.",
     "history": [
       {
@@ -2216,33 +2656,17 @@
       {
         "date": "2026-05-04",
         "mcap": 96174
-      }
-    ]
-  },
-  {
-    "SecurityID": 5756,
-    "rank": 112,
-    "mcap": 94393,
-    "name": "Ashok Leyland Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 95215
       },
       {
-        "date": "2026-05-03",
-        "mcap": 95215
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 94393
+        "date": "2026-05-05",
+        "mcap": 95825
       }
     ]
   },
   {
     "SecurityID": 105806,
-    "rank": 113,
-    "mcap": 93324,
+    "rank": 112,
+    "mcap": 95803,
     "name": "Mankind Pharma Ltd.",
     "history": [
       {
@@ -2256,73 +2680,17 @@
       {
         "date": "2026-05-04",
         "mcap": 93324
-      }
-    ]
-  },
-  {
-    "SecurityID": 4973,
-    "rank": 114,
-    "mcap": 93111,
-    "name": "REC Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 93308
       },
       {
-        "date": "2026-05-03",
-        "mcap": 93308
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 93111
-      }
-    ]
-  },
-  {
-    "SecurityID": 88599,
-    "rank": 115,
-    "mcap": 92263,
-    "name": "Lodha Developers Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 89680
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 89680
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 92263
-      }
-    ]
-  },
-  {
-    "SecurityID": 5107,
-    "rank": 116,
-    "mcap": 91648,
-    "name": "The Indian Hotels Company Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 90495
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 90495
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 91648
+        "date": "2026-05-05",
+        "mcap": 95803
       }
     ]
   },
   {
     "SecurityID": 86555,
-    "rank": 117,
-    "mcap": 91221,
+    "rank": 113,
+    "mcap": 94562,
     "name": "Aditya Birla Capital Ltd.",
     "history": [
       {
@@ -2336,13 +2704,89 @@
       {
         "date": "2026-05-04",
         "mcap": 91221
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 94562
+      }
+    ]
+  },
+  {
+    "SecurityID": 5756,
+    "rank": 114,
+    "mcap": 94158,
+    "name": "Ashok Leyland Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 95215
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 95215
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 94393
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 94158
+      }
+    ]
+  },
+  {
+    "SecurityID": 4973,
+    "rank": 115,
+    "mcap": 93874,
+    "name": "REC Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 93308
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 93308
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 93111
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 93874
+      }
+    ]
+  },
+  {
+    "SecurityID": 5107,
+    "rank": 116,
+    "mcap": 92288,
+    "name": "The Indian Hotels Company Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 90495
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 90495
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 91648
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 92288
       }
     ]
   },
   {
     "SecurityID": 4931,
-    "rank": 118,
-    "mcap": 90727,
+    "rank": 117,
+    "mcap": 91753,
     "name": "Zydus Lifesciences Ltd.",
     "history": [
       {
@@ -2356,13 +2800,17 @@
       {
         "date": "2026-05-04",
         "mcap": 90727
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 91753
       }
     ]
   },
   {
     "SecurityID": 100627,
-    "rank": 119,
-    "mcap": 90310,
+    "rank": 118,
+    "mcap": 91559,
     "name": "Waaree Energies Ltd.",
     "history": [
       {
@@ -2376,33 +2824,41 @@
       {
         "date": "2026-05-04",
         "mcap": 90310
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 91559
       }
     ]
   },
   {
-    "SecurityID": 113278,
-    "rank": 120,
-    "mcap": 89538,
-    "name": "Lenskart Solutions Ltd.",
+    "SecurityID": 88599,
+    "rank": 119,
+    "mcap": 90694,
+    "name": "Lodha Developers Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 89486
+        "mcap": 89680
       },
       {
         "date": "2026-05-03",
-        "mcap": 89486
+        "mcap": 89680
       },
       {
         "date": "2026-05-04",
-        "mcap": 89538
+        "mcap": 92263
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 90694
       }
     ]
   },
   {
     "SecurityID": 5173,
-    "rank": 121,
-    "mcap": 89238,
+    "rank": 120,
+    "mcap": 89775,
     "name": "Shree Cement Ltd.",
     "history": [
       {
@@ -2416,13 +2872,17 @@
       {
         "date": "2026-05-04",
         "mcap": 89238
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 89775
       }
     ]
   },
   {
     "SecurityID": 6790,
-    "rank": 122,
-    "mcap": 88215,
+    "rank": 121,
+    "mcap": 89183,
     "name": "Bharat Forge Ltd.",
     "history": [
       {
@@ -2436,13 +2896,17 @@
       {
         "date": "2026-05-04",
         "mcap": 88215
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 89183
       }
     ]
   },
   {
     "SecurityID": 86629,
-    "rank": 123,
-    "mcap": 87523,
+    "rank": 122,
+    "mcap": 88615,
     "name": "ICICI Lombard General Insurance Company Ltd.",
     "history": [
       {
@@ -2456,13 +2920,41 @@
       {
         "date": "2026-05-04",
         "mcap": 87523
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 88615
+      }
+    ]
+  },
+  {
+    "SecurityID": 113278,
+    "rank": 123,
+    "mcap": 87967,
+    "name": "Lenskart Solutions Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 89486
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 89486
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 89538
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 87967
       }
     ]
   },
   {
     "SecurityID": 8307,
     "rank": 124,
-    "mcap": 84734,
+    "mcap": 84465,
     "name": "Oracle Financial Services Software Ltd.",
     "history": [
       {
@@ -2476,13 +2968,17 @@
       {
         "date": "2026-05-04",
         "mcap": 84734
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 84465
       }
     ]
   },
   {
     "SecurityID": 8183,
     "rank": 125,
-    "mcap": 83655,
+    "mcap": 83565,
     "name": "NHPC Ltd.",
     "history": [
       {
@@ -2496,13 +2992,17 @@
       {
         "date": "2026-05-04",
         "mcap": 83655
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 83565
       }
     ]
   },
   {
     "SecurityID": 6543,
     "rank": 126,
-    "mcap": 79907,
+    "mcap": 82950,
     "name": "Aurobindo Pharma Ltd.",
     "history": [
       {
@@ -2516,33 +3016,17 @@
       {
         "date": "2026-05-04",
         "mcap": 79907
-      }
-    ]
-  },
-  {
-    "SecurityID": 5279,
-    "rank": 127,
-    "mcap": 79549,
-    "name": "Hindustan Petroleum Corporation Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 79708
       },
       {
-        "date": "2026-05-03",
-        "mcap": 79708
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 79549
+        "date": "2026-05-05",
+        "mcap": 82950
       }
     ]
   },
   {
     "SecurityID": 4956,
-    "rank": 128,
-    "mcap": 79036,
+    "rank": 127,
+    "mcap": 81705,
     "name": "Dabur India Ltd.",
     "history": [
       {
@@ -2556,33 +3040,41 @@
       {
         "date": "2026-05-04",
         "mcap": 79036
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 81705
       }
     ]
   },
   {
-    "SecurityID": 5614,
-    "rank": 129,
-    "mcap": 78799,
-    "name": "Havells India Ltd.",
+    "SecurityID": 5279,
+    "rank": 128,
+    "mcap": 79506,
+    "name": "Hindustan Petroleum Corporation Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 77833
+        "mcap": 79708
       },
       {
         "date": "2026-05-03",
-        "mcap": 77833
+        "mcap": 79708
       },
       {
         "date": "2026-05-04",
-        "mcap": 78799
+        "mcap": 79549
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 79506
       }
     ]
   },
   {
     "SecurityID": 7232,
-    "rank": 130,
-    "mcap": 78300,
+    "rank": 129,
+    "mcap": 78089,
     "name": "NMDC Ltd.",
     "history": [
       {
@@ -2596,33 +3088,41 @@
       {
         "date": "2026-05-04",
         "mcap": 78300
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 78089
       }
     ]
   },
   {
-    "SecurityID": 6026,
-    "rank": 131,
-    "mcap": 77321,
-    "name": "Oil India Ltd.",
+    "SecurityID": 5614,
+    "rank": 130,
+    "mcap": 77792,
+    "name": "Havells India Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 79842
+        "mcap": 77833
       },
       {
         "date": "2026-05-03",
-        "mcap": 79842
+        "mcap": 77833
       },
       {
         "date": "2026-05-04",
-        "mcap": 77321
+        "mcap": 78799
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 77792
       }
     ]
   },
   {
     "SecurityID": 99763,
-    "rank": 132,
-    "mcap": 77293,
+    "rank": 131,
+    "mcap": 77721,
     "name": "PB Fintech Ltd.",
     "history": [
       {
@@ -2636,33 +3136,41 @@
       {
         "date": "2026-05-04",
         "mcap": 77293
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 77721
       }
     ]
   },
   {
-    "SecurityID": 112552,
-    "rank": 133,
-    "mcap": 76958,
-    "name": "Swiggy Ltd.",
+    "SecurityID": 6026,
+    "rank": 132,
+    "mcap": 77451,
+    "name": "Oil India Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 74653
+        "mcap": 79842
       },
       {
         "date": "2026-05-03",
-        "mcap": 74653
+        "mcap": 79842
       },
       {
         "date": "2026-05-04",
-        "mcap": 76958
+        "mcap": 77321
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 77451
       }
     ]
   },
   {
     "SecurityID": 5368,
-    "rank": 134,
-    "mcap": 76890,
+    "rank": 133,
+    "mcap": 77365,
     "name": "Steel Authority Of India Ltd.",
     "history": [
       {
@@ -2676,33 +3184,17 @@
       {
         "date": "2026-05-04",
         "mcap": 76890
-      }
-    ]
-  },
-  {
-    "SecurityID": 85778,
-    "rank": 135,
-    "mcap": 75997,
-    "name": "AU Small Finance Bank Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 76147
       },
       {
-        "date": "2026-05-03",
-        "mcap": 76147
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 75997
+        "date": "2026-05-05",
+        "mcap": 77365
       }
     ]
   },
   {
     "SecurityID": 99819,
-    "rank": 136,
-    "mcap": 75794,
+    "rank": 134,
+    "mcap": 77283,
     "name": "FSN E-Commerce Ventures Ltd.",
     "history": [
       {
@@ -2716,33 +3208,17 @@
       {
         "date": "2026-05-04",
         "mcap": 75794
-      }
-    ]
-  },
-  {
-    "SecurityID": 7447,
-    "rank": 137,
-    "mcap": 75630,
-    "name": "SRF Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 74675
       },
       {
-        "date": "2026-05-03",
-        "mcap": 74675
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 75630
+        "date": "2026-05-05",
+        "mcap": 77283
       }
     ]
   },
   {
     "SecurityID": 5980,
-    "rank": 138,
-    "mcap": 75501,
+    "rank": 135,
+    "mcap": 75973,
     "name": "Persistent Systems Ltd.",
     "history": [
       {
@@ -2756,33 +3232,17 @@
       {
         "date": "2026-05-04",
         "mcap": 75501
-      }
-    ]
-  },
-  {
-    "SecurityID": 5056,
-    "rank": 139,
-    "mcap": 75407,
-    "name": "Suzlon Energy Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 76326
       },
       {
-        "date": "2026-05-03",
-        "mcap": 76326
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 75407
+        "date": "2026-05-05",
+        "mcap": 75973
       }
     ]
   },
   {
     "SecurityID": 5473,
-    "rank": 140,
-    "mcap": 74889,
+    "rank": 136,
+    "mcap": 75917,
     "name": "National Aluminium Company Ltd.",
     "history": [
       {
@@ -2796,13 +3256,113 @@
       {
         "date": "2026-05-04",
         "mcap": 74889
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 75917
+      }
+    ]
+  },
+  {
+    "SecurityID": 112552,
+    "rank": 137,
+    "mcap": 75577,
+    "name": "Swiggy Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 74653
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 74653
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 76958
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 75577
+      }
+    ]
+  },
+  {
+    "SecurityID": 85778,
+    "rank": 138,
+    "mcap": 75402,
+    "name": "AU Small Finance Bank Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 76147
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 76147
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 75997
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 75402
+      }
+    ]
+  },
+  {
+    "SecurityID": 5056,
+    "rank": 139,
+    "mcap": 75297,
+    "name": "Suzlon Energy Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 76326
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 76326
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 75407
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 75297
+      }
+    ]
+  },
+  {
+    "SecurityID": 7447,
+    "rank": 140,
+    "mcap": 74924,
+    "name": "SRF Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 74675
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 74675
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 75630
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 74924
       }
     ]
   },
   {
     "SecurityID": 7802,
     "rank": 141,
-    "mcap": 74266,
+    "mcap": 74004,
     "name": "Multi Commodity Exchange Of India Ltd.",
     "history": [
       {
@@ -2816,33 +3376,17 @@
       {
         "date": "2026-05-04",
         "mcap": 74266
-      }
-    ]
-  },
-  {
-    "SecurityID": 5140,
-    "rank": 142,
-    "mcap": 71929,
-    "name": "Fortis Healthcare Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 69709
       },
       {
-        "date": "2026-05-03",
-        "mcap": 69709
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 71929
+        "date": "2026-05-05",
+        "mcap": 74004
       }
     ]
   },
   {
     "SecurityID": 6920,
-    "rank": 143,
-    "mcap": 71531,
+    "rank": 142,
+    "mcap": 72721,
     "name": "L&T Finance Ltd.",
     "history": [
       {
@@ -2856,33 +3400,17 @@
       {
         "date": "2026-05-04",
         "mcap": 71531
-      }
-    ]
-  },
-  {
-    "SecurityID": 99590,
-    "rank": 144,
-    "mcap": 71356,
-    "name": "One97 Communications Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 70178
       },
       {
-        "date": "2026-05-03",
-        "mcap": 70178
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 71356
+        "date": "2026-05-05",
+        "mcap": 72721
       }
     ]
   },
   {
     "SecurityID": 5596,
-    "rank": 145,
-    "mcap": 71243,
+    "rank": 143,
+    "mcap": 72118,
     "name": "The Federal Bank Ltd.",
     "history": [
       {
@@ -2896,33 +3424,41 @@
       {
         "date": "2026-05-04",
         "mcap": 71243
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 72118
       }
     ]
   },
   {
-    "SecurityID": 5285,
-    "rank": 146,
-    "mcap": 71219,
-    "name": "IndusInd Bank Ltd.",
+    "SecurityID": 5140,
+    "rank": 144,
+    "mcap": 71676,
+    "name": "Fortis Healthcare Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 71332
+        "mcap": 69709
       },
       {
         "date": "2026-05-03",
-        "mcap": 71332
+        "mcap": 69709
       },
       {
         "date": "2026-05-04",
-        "mcap": 71219
+        "mcap": 71929
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 71676
       }
     ]
   },
   {
     "SecurityID": 90518,
-    "rank": 147,
-    "mcap": 70756,
+    "rank": 145,
+    "mcap": 71196,
     "name": "Adani Total Gas Ltd.",
     "history": [
       {
@@ -2936,13 +3472,65 @@
       {
         "date": "2026-05-04",
         "mcap": 70756
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 71196
+      }
+    ]
+  },
+  {
+    "SecurityID": 5285,
+    "rank": 146,
+    "mcap": 70961,
+    "name": "IndusInd Bank Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 71332
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 71332
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 71219
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 70961
+      }
+    ]
+  },
+  {
+    "SecurityID": 99590,
+    "rank": 147,
+    "mcap": 69686,
+    "name": "One97 Communications Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 70178
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 70178
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 71356
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 69686
       }
     ]
   },
   {
     "SecurityID": 86554,
     "rank": 148,
-    "mcap": 69362,
+    "mcap": 68473,
     "name": "Dixon Technologies (India) Ltd.",
     "history": [
       {
@@ -2956,13 +3544,17 @@
       {
         "date": "2026-05-04",
         "mcap": 69362
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 68473
       }
     ]
   },
   {
     "SecurityID": 8505,
     "rank": 149,
-    "mcap": 67519,
+    "mcap": 68294,
     "name": "Glenmark Pharmaceuticals Ltd.",
     "history": [
       {
@@ -2976,13 +3568,17 @@
       {
         "date": "2026-05-04",
         "mcap": 67519
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 68294
       }
     ]
   },
   {
     "SecurityID": 15891,
     "rank": 150,
-    "mcap": 64029,
+    "mcap": 64627,
     "name": "Alkem Laboratories Ltd.",
     "history": [
       {
@@ -2996,93 +3592,17 @@
       {
         "date": "2026-05-04",
         "mcap": 64029
-      }
-    ]
-  },
-  {
-    "SecurityID": 5767,
-    "rank": 151,
-    "mcap": 63912,
-    "name": "The Phoenix Mills Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 63132
       },
       {
-        "date": "2026-05-03",
-        "mcap": 63132
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 63912
-      }
-    ]
-  },
-  {
-    "SecurityID": 7512,
-    "rank": 152,
-    "mcap": 63312,
-    "name": "Info Edge (India) Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 63039
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 63039
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 63312
-      }
-    ]
-  },
-  {
-    "SecurityID": 5238,
-    "rank": 153,
-    "mcap": 63146,
-    "name": "Bank Of India",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 63692
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 63692
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 63146
-      }
-    ]
-  },
-  {
-    "SecurityID": 82380,
-    "rank": 154,
-    "mcap": 62974,
-    "name": "Laurus Labs Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 59336
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 59336
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 62974
+        "date": "2026-05-05",
+        "mcap": 64627
       }
     ]
   },
   {
     "SecurityID": 7030,
-    "rank": 155,
-    "mcap": 62635,
+    "rank": 151,
+    "mcap": 64330,
     "name": "Yes Bank Ltd.",
     "history": [
       {
@@ -3096,33 +3616,89 @@
       {
         "date": "2026-05-04",
         "mcap": 62635
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 64330
       }
     ]
   },
   {
-    "SecurityID": 8051,
-    "rank": 156,
-    "mcap": 62620,
-    "name": "Prestige Estates Projects Ltd.",
+    "SecurityID": 5767,
+    "rank": 152,
+    "mcap": 64152,
+    "name": "The Phoenix Mills Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 60860
+        "mcap": 63132
       },
       {
         "date": "2026-05-03",
-        "mcap": 60860
+        "mcap": 63132
       },
       {
         "date": "2026-05-04",
-        "mcap": 62620
+        "mcap": 63912
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 64152
+      }
+    ]
+  },
+  {
+    "SecurityID": 5238,
+    "rank": 153,
+    "mcap": 63100,
+    "name": "Bank Of India",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 63692
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 63692
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 63146
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 63100
+      }
+    ]
+  },
+  {
+    "SecurityID": 82380,
+    "rank": 154,
+    "mcap": 62839,
+    "name": "Laurus Labs Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 59336
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 59336
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 62974
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 62839
       }
     ]
   },
   {
     "SecurityID": 88308,
-    "rank": 157,
-    "mcap": 61810,
+    "rank": 155,
+    "mcap": 62634,
     "name": "Rail Vikas Nigam Ltd.",
     "history": [
       {
@@ -3136,33 +3712,65 @@
       {
         "date": "2026-05-04",
         "mcap": 61810
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 62634
       }
     ]
   },
   {
-    "SecurityID": 5278,
-    "rank": 158,
-    "mcap": 61521,
-    "name": "Oberoi Realty Ltd.",
+    "SecurityID": 7512,
+    "rank": 156,
+    "mcap": 62540,
+    "name": "Info Edge (India) Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 60680
+        "mcap": 63039
       },
       {
         "date": "2026-05-03",
-        "mcap": 60680
+        "mcap": 63039
       },
       {
         "date": "2026-05-04",
-        "mcap": 61521
+        "mcap": 63312
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 62540
+      }
+    ]
+  },
+  {
+    "SecurityID": 8051,
+    "rank": 157,
+    "mcap": 61693,
+    "name": "Prestige Estates Projects Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 60860
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 60860
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 62620
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 61693
       }
     ]
   },
   {
     "SecurityID": 92991,
-    "rank": 159,
-    "mcap": 61412,
+    "rank": 158,
+    "mcap": 61493,
     "name": "SBI Cards And Payment Services Ltd.",
     "history": [
       {
@@ -3176,93 +3784,41 @@
       {
         "date": "2026-05-04",
         "mcap": 61412
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 61493
       }
     ]
   },
   {
-    "SecurityID": 15826,
-    "rank": 160,
-    "mcap": 59867,
-    "name": "IDFC First Bank Ltd.",
+    "SecurityID": 5278,
+    "rank": 159,
+    "mcap": 60587,
+    "name": "Oberoi Realty Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 59910
+        "mcap": 60680
       },
       {
         "date": "2026-05-03",
-        "mcap": 59910
+        "mcap": 60680
       },
       {
         "date": "2026-05-04",
-        "mcap": 59867
-      }
-    ]
-  },
-  {
-    "SecurityID": 5969,
-    "rank": 161,
-    "mcap": 59070,
-    "name": "Colgate-Palmolive (India) Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 57029
+        "mcap": 61521
       },
       {
-        "date": "2026-05-03",
-        "mcap": 57029
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 59070
-      }
-    ]
-  },
-  {
-    "SecurityID": 5589,
-    "rank": 162,
-    "mcap": 59012,
-    "name": "Coromandel International Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 58463
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 58463
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 59012
-      }
-    ]
-  },
-  {
-    "SecurityID": 112566,
-    "rank": 163,
-    "mcap": 58485,
-    "name": "Vishal Mega Mart Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 57247
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 57247
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 58485
+        "date": "2026-05-05",
+        "mcap": 60587
       }
     ]
   },
   {
     "SecurityID": 6434,
-    "rank": 164,
-    "mcap": 58418,
+    "rank": 160,
+    "mcap": 59795,
     "name": "Biocon Ltd.",
     "history": [
       {
@@ -3276,33 +3832,113 @@
       {
         "date": "2026-05-04",
         "mcap": 58418
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 59795
       }
     ]
   },
   {
-    "SecurityID": 6864,
-    "rank": 165,
-    "mcap": 57223,
-    "name": "Godrej Properties Ltd.",
+    "SecurityID": 5589,
+    "rank": 161,
+    "mcap": 59299,
+    "name": "Coromandel International Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 55266
+        "mcap": 58463
       },
       {
         "date": "2026-05-03",
-        "mcap": 55266
+        "mcap": 58463
       },
       {
         "date": "2026-05-04",
-        "mcap": 57223
+        "mcap": 59012
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 59299
+      }
+    ]
+  },
+  {
+    "SecurityID": 5969,
+    "rank": 162,
+    "mcap": 59247,
+    "name": "Colgate-Palmolive (India) Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 57029
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 57029
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 59070
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 59247
+      }
+    ]
+  },
+  {
+    "SecurityID": 15826,
+    "rank": 163,
+    "mcap": 59144,
+    "name": "IDFC First Bank Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 59910
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 59910
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 59867
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 59144
+      }
+    ]
+  },
+  {
+    "SecurityID": 112566,
+    "rank": 164,
+    "mcap": 58345,
+    "name": "Vishal Mega Mart Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 57247
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 57247
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 58485
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 58345
       }
     ]
   },
   {
     "SecurityID": 86936,
-    "rank": 166,
-    "mcap": 56138,
+    "rank": 165,
+    "mcap": 56744,
     "name": "Tube Investments of India Ltd.",
     "history": [
       {
@@ -3316,13 +3952,17 @@
       {
         "date": "2026-05-04",
         "mcap": 56138
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 56744
       }
     ]
   },
   {
     "SecurityID": 5634,
-    "rank": 167,
-    "mcap": 55413,
+    "rank": 166,
+    "mcap": 55089,
     "name": "Max Financial Services Ltd.",
     "history": [
       {
@@ -3336,13 +3976,41 @@
       {
         "date": "2026-05-04",
         "mcap": 55413
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 55089
+      }
+    ]
+  },
+  {
+    "SecurityID": 6864,
+    "rank": 167,
+    "mcap": 54504,
+    "name": "Godrej Properties Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 55266
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 55266
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 57223
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 54504
       }
     ]
   },
   {
     "SecurityID": 8313,
     "rank": 168,
-    "mcap": 54820,
+    "mcap": 54433,
     "name": "MRF Ltd.",
     "history": [
       {
@@ -3356,13 +4024,17 @@
       {
         "date": "2026-05-04",
         "mcap": 54820
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 54433
       }
     ]
   },
   {
     "SecurityID": 7381,
     "rank": 169,
-    "mcap": 54369,
+    "mcap": 54229,
     "name": "UPL Ltd.",
     "history": [
       {
@@ -3376,13 +4048,17 @@
       {
         "date": "2026-05-04",
         "mcap": 54369
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 54229
       }
     ]
   },
   {
     "SecurityID": 7648,
     "rank": 170,
-    "mcap": 52010,
+    "mcap": 51936,
     "name": "APL Apollo Tubes Ltd.",
     "history": [
       {
@@ -3396,33 +4072,17 @@
       {
         "date": "2026-05-04",
         "mcap": 52010
-      }
-    ]
-  },
-  {
-    "SecurityID": 6291,
-    "rank": 171,
-    "mcap": 50328,
-    "name": "Motilal Oswal Financial Services Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 48227
       },
       {
-        "date": "2026-05-03",
-        "mcap": 48227
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 50328
+        "date": "2026-05-05",
+        "mcap": 51936
       }
     ]
   },
   {
     "SecurityID": 87827,
-    "rank": 172,
-    "mcap": 50302,
+    "rank": 171,
+    "mcap": 51266,
     "name": "Bharat Dynamics Ltd.",
     "history": [
       {
@@ -3436,33 +4096,41 @@
       {
         "date": "2026-05-04",
         "mcap": 50302
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 51266
       }
     ]
   },
   {
-    "SecurityID": 7356,
-    "rank": 173,
-    "mcap": 49677,
-    "name": "Patanjali Foods Ltd.",
+    "SecurityID": 6291,
+    "rank": 172,
+    "mcap": 50764,
+    "name": "Motilal Oswal Financial Services Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 50026
+        "mcap": 48227
       },
       {
         "date": "2026-05-03",
-        "mcap": 50026
+        "mcap": 48227
       },
       {
         "date": "2026-05-04",
-        "mcap": 49677
+        "mcap": 50328
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 50764
       }
     ]
   },
   {
     "SecurityID": 7260,
-    "rank": 174,
-    "mcap": 49495,
+    "rank": 173,
+    "mcap": 50196,
     "name": "Coforge Ltd.",
     "history": [
       {
@@ -3476,13 +4144,41 @@
       {
         "date": "2026-05-04",
         "mcap": 49495
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 50196
+      }
+    ]
+  },
+  {
+    "SecurityID": 7356,
+    "rank": 174,
+    "mcap": 49754,
+    "name": "Patanjali Foods Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 50026
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 50026
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 49677
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 49754
       }
     ]
   },
   {
     "SecurityID": 8292,
     "rank": 175,
-    "mcap": 48362,
+    "mcap": 47996,
     "name": "KEI Industries Ltd.",
     "history": [
       {
@@ -3496,33 +4192,17 @@
       {
         "date": "2026-05-04",
         "mcap": 48362
-      }
-    ]
-  },
-  {
-    "SecurityID": 5838,
-    "rank": 176,
-    "mcap": 48121,
-    "name": "Voltas Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 47326
       },
       {
-        "date": "2026-05-03",
-        "mcap": 47326
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 48121
+        "date": "2026-05-05",
+        "mcap": 47996
       }
     ]
   },
   {
     "SecurityID": 112026,
-    "rank": 177,
-    "mcap": 46966,
+    "rank": 176,
+    "mcap": 47324,
     "name": "Premier Energies Ltd.",
     "history": [
       {
@@ -3536,33 +4216,17 @@
       {
         "date": "2026-05-04",
         "mcap": 46966
-      }
-    ]
-  },
-  {
-    "SecurityID": 7308,
-    "rank": 178,
-    "mcap": 46211,
-    "name": "PI Industries Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 46346
       },
       {
-        "date": "2026-05-03",
-        "mcap": 46346
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 46211
+        "date": "2026-05-05",
+        "mcap": 47324
       }
     ]
   },
   {
     "SecurityID": 5695,
-    "rank": 179,
-    "mcap": 45972,
+    "rank": 177,
+    "mcap": 46116,
     "name": "Supreme Industries Ltd.",
     "history": [
       {
@@ -3576,73 +4240,65 @@
       {
         "date": "2026-05-04",
         "mcap": 45972
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 46116
       }
     ]
   },
   {
-    "SecurityID": 8531,
-    "rank": 180,
-    "mcap": 45409,
-    "name": "Radico Khaitan Ltd.",
+    "SecurityID": 7308,
+    "rank": 178,
+    "mcap": 45674,
+    "name": "PI Industries Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 45837
+        "mcap": 46346
       },
       {
         "date": "2026-05-03",
-        "mcap": 45837
+        "mcap": 46346
       },
       {
         "date": "2026-05-04",
-        "mcap": 45409
+        "mcap": 46211
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 45674
       }
     ]
   },
   {
-    "SecurityID": 84770,
-    "rank": 181,
-    "mcap": 45222,
-    "name": "Cochin Shipyard Ltd.",
+    "SecurityID": 5838,
+    "rank": 179,
+    "mcap": 45569,
+    "name": "Voltas Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 45634
+        "mcap": 47326
       },
       {
         "date": "2026-05-03",
-        "mcap": 45634
+        "mcap": 47326
       },
       {
         "date": "2026-05-04",
-        "mcap": 45222
-      }
-    ]
-  },
-  {
-    "SecurityID": 5522,
-    "rank": 182,
-    "mcap": 44668,
-    "name": "Tata Communications Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 45023
+        "mcap": 48121
       },
       {
-        "date": "2026-05-03",
-        "mcap": 45023
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 44668
+        "date": "2026-05-05",
+        "mcap": 45569
       }
     ]
   },
   {
     "SecurityID": 92620,
-    "rank": 183,
-    "mcap": 44420,
+    "rank": 180,
+    "mcap": 45512,
     "name": "Indian Railway Catering And Tourism Corporation Ltd.",
     "history": [
       {
@@ -3656,13 +4312,89 @@
       {
         "date": "2026-05-04",
         "mcap": 44420
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 45512
+      }
+    ]
+  },
+  {
+    "SecurityID": 84770,
+    "rank": 181,
+    "mcap": 45043,
+    "name": "Cochin Shipyard Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 45634
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 45634
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 45222
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 45043
+      }
+    ]
+  },
+  {
+    "SecurityID": 8531,
+    "rank": 182,
+    "mcap": 44715,
+    "name": "Radico Khaitan Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 45837
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 45837
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 45409
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 44715
+      }
+    ]
+  },
+  {
+    "SecurityID": 5522,
+    "rank": 183,
+    "mcap": 44394,
+    "name": "Tata Communications Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 45023
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 45023
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 44668
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 44394
       }
     ]
   },
   {
     "SecurityID": 83788,
     "rank": 184,
-    "mcap": 44342,
+    "mcap": 44022,
     "name": "Housing & Urban Development Corporation Ltd.",
     "history": [
       {
@@ -3676,33 +4408,17 @@
       {
         "date": "2026-05-04",
         "mcap": 44342
-      }
-    ]
-  },
-  {
-    "SecurityID": 6350,
-    "rank": 185,
-    "mcap": 43438,
-    "name": "Mphasis Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 43464
       },
       {
-        "date": "2026-05-03",
-        "mcap": 43464
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 43438
+        "date": "2026-05-05",
+        "mcap": 44022
       }
     ]
   },
   {
     "SecurityID": 92715,
-    "rank": 186,
-    "mcap": 43337,
+    "rank": 185,
+    "mcap": 43496,
     "name": "360 One Wam Ltd.",
     "history": [
       {
@@ -3716,33 +4432,17 @@
       {
         "date": "2026-05-04",
         "mcap": 43337
-      }
-    ]
-  },
-  {
-    "SecurityID": 98250,
-    "rank": 187,
-    "mcap": 42693,
-    "name": "Kalyan Jewellers India Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 42606
       },
       {
-        "date": "2026-05-03",
-        "mcap": 42606
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 42693
+        "date": "2026-05-05",
+        "mcap": 43496
       }
     ]
   },
   {
     "SecurityID": 8782,
-    "rank": 188,
-    "mcap": 42248,
+    "rank": 186,
+    "mcap": 42471,
     "name": "Mahindra & Mahindra Financial Services Ltd.",
     "history": [
       {
@@ -3756,33 +4456,65 @@
       {
         "date": "2026-05-04",
         "mcap": 42248
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 42471
       }
     ]
   },
   {
-    "SecurityID": 4916,
-    "rank": 189,
-    "mcap": 41877,
-    "name": "Astral Ltd.",
+    "SecurityID": 6350,
+    "rank": 187,
+    "mcap": 42181,
+    "name": "Mphasis Ltd.",
     "history": [
       {
         "date": "2026-05-02",
-        "mcap": 41103
+        "mcap": 43464
       },
       {
         "date": "2026-05-03",
-        "mcap": 41103
+        "mcap": 43464
       },
       {
         "date": "2026-05-04",
-        "mcap": 41877
+        "mcap": 43438
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 42181
+      }
+    ]
+  },
+  {
+    "SecurityID": 98250,
+    "rank": 188,
+    "mcap": 42007,
+    "name": "Kalyan Jewellers India Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 42606
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 42606
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 42693
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 42007
       }
     ]
   },
   {
     "SecurityID": 7864,
-    "rank": 190,
-    "mcap": 41168,
+    "rank": 189,
+    "mcap": 41694,
     "name": "Page Industries Ltd.",
     "history": [
       {
@@ -3796,13 +4528,41 @@
       {
         "date": "2026-05-04",
         "mcap": 41168
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 41694
+      }
+    ]
+  },
+  {
+    "SecurityID": 4916,
+    "rank": 190,
+    "mcap": 41142,
+    "name": "Astral Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 41103
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 41103
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 41877
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 41142
       }
     ]
   },
   {
     "SecurityID": 5355,
     "rank": 191,
-    "mcap": 39326,
+    "mcap": 39429,
     "name": "Container Corporation Of India Ltd.",
     "history": [
       {
@@ -3816,13 +4576,17 @@
       {
         "date": "2026-05-04",
         "mcap": 39326
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 39429
       }
     ]
   },
   {
     "SecurityID": 92672,
     "rank": 192,
-    "mcap": 38037,
+    "mcap": 37981,
     "name": "Indian Renewable Energy Development Agency Ltd.",
     "history": [
       {
@@ -3836,13 +4600,17 @@
       {
         "date": "2026-05-04",
         "mcap": 38037
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 37981
       }
     ]
   },
   {
     "SecurityID": 6810,
     "rank": 193,
-    "mcap": 37062,
+    "mcap": 37060,
     "name": "Blue Star Ltd.",
     "history": [
       {
@@ -3856,13 +4624,17 @@
       {
         "date": "2026-05-04",
         "mcap": 37062
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 37060
       }
     ]
   },
   {
     "SecurityID": 7543,
     "rank": 194,
-    "mcap": 36252,
+    "mcap": 36884,
     "name": "Tata Investment Corporation Ltd.",
     "history": [
       {
@@ -3876,13 +4648,17 @@
       {
         "date": "2026-05-04",
         "mcap": 36252
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 36884
       }
     ]
   },
   {
     "SecurityID": 8742,
     "rank": 195,
-    "mcap": 34569,
+    "mcap": 34938,
     "name": "Godfrey Phillips India Ltd.",
     "history": [
       {
@@ -3896,53 +4672,17 @@
       {
         "date": "2026-05-04",
         "mcap": 34569
-      }
-    ]
-  },
-  {
-    "SecurityID": 7992,
-    "rank": 196,
-    "mcap": 31428,
-    "name": "Jubilant FoodWorks Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 31547
       },
       {
-        "date": "2026-05-03",
-        "mcap": 31547
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 31428
-      }
-    ]
-  },
-  {
-    "SecurityID": 5372,
-    "rank": 197,
-    "mcap": 30619,
-    "name": "LIC Housing Finance Ltd.",
-    "history": [
-      {
-        "date": "2026-05-02",
-        "mcap": 30493
-      },
-      {
-        "date": "2026-05-03",
-        "mcap": 30493
-      },
-      {
-        "date": "2026-05-04",
-        "mcap": 30619
+        "date": "2026-05-05",
+        "mcap": 34938
       }
     ]
   },
   {
     "SecurityID": 6139,
-    "rank": 198,
-    "mcap": 30553,
+    "rank": 196,
+    "mcap": 30702,
     "name": "Exide Industries Ltd.",
     "history": [
       {
@@ -3956,13 +4696,65 @@
       {
         "date": "2026-05-04",
         "mcap": 30553
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 30702
+      }
+    ]
+  },
+  {
+    "SecurityID": 5372,
+    "rank": 197,
+    "mcap": 30696,
+    "name": "LIC Housing Finance Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 30493
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 30493
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 30619
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 30696
+      }
+    ]
+  },
+  {
+    "SecurityID": 7992,
+    "rank": 198,
+    "mcap": 30696,
+    "name": "Jubilant FoodWorks Ltd.",
+    "history": [
+      {
+        "date": "2026-05-02",
+        "mcap": 31547
+      },
+      {
+        "date": "2026-05-03",
+        "mcap": 31547
+      },
+      {
+        "date": "2026-05-04",
+        "mcap": 31428
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 30696
       }
     ]
   },
   {
     "SecurityID": 7533,
     "rank": 199,
-    "mcap": 26034,
+    "mcap": 26274,
     "name": "Tata Elxsi Ltd.",
     "history": [
       {
@@ -3976,13 +4768,17 @@
       {
         "date": "2026-05-04",
         "mcap": 26034
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 26274
       }
     ]
   },
   {
     "SecurityID": 91366,
     "rank": 200,
-    "mcap": 21065,
+    "mcap": 21164,
     "name": "KPIT Technologies Ltd.",
     "history": [
       {
@@ -3996,6 +4792,10 @@
       {
         "date": "2026-05-04",
         "mcap": 21065
+      },
+      {
+        "date": "2026-05-05",
+        "mcap": 21164
       }
     ]
   }
